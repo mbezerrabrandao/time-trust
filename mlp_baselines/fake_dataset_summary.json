@@ -1,0 +1,85 @@
+{
+  "window_tag": "W10_step1",
+  "datasets": [
+    "FAKE_DATASET"
+  ],
+  "hidden_grid": [
+    [
+      10
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "train_config": {
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "batch_size": 128,
+    "seed": 2026,
+    "verbose": 0
+  },
+  "results": [
+    {
+      "dataset_name": "FAKE_DATASET",
+      "runs": [
+        {
+          "hidden_sizes": [
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 172.44189453125,
+            "val_mse": 168.739501953125,
+            "train_rmse": 13.131713312864015,
+            "val_rmse": 12.989976980469404,
+            "train_mae": 10.556182861328125,
+            "val_mae": 10.55332088470459,
+            "train_r2": -0.1758439540863037,
+            "val_r2": -0.23683130741119385
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FAKE_DATASET/W10_step1/h10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 139.5313262939453,
+            "val_mse": 136.56320190429688,
+            "train_rmse": 11.812337884345558,
+            "val_rmse": 11.686025924337875,
+            "train_mae": 9.567459106445312,
+            "val_mae": 9.458296775817871,
+            "train_r2": 0.04856610298156738,
+            "val_r2": -0.0009845495223999023
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FAKE_DATASET/W10_step1/h10_10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 127.8987045288086,
+            "val_mse": 157.2519073486328,
+            "train_rmse": 11.309230943296216,
+            "val_rmse": 12.540012254724187,
+            "train_mae": 9.089273452758789,
+            "val_mae": 10.332369804382324,
+            "train_r2": 0.12788647413253784,
+            "val_r2": -0.15262925624847412
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FAKE_DATASET/W10_step1/h10_10_10"
+        }
+      ]
+    }
+  ]
+}

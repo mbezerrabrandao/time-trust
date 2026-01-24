@@ -1,0 +1,256 @@
+{
+  "window_tag": "W30_step1",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "hidden_grid": [
+    [
+      10
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "train_config": {
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "batch_size": 128,
+    "seed": 2026,
+    "verbose": 0
+  },
+  "results": [
+    {
+      "dataset_name": "FD001",
+      "runs": [
+        {
+          "hidden_sizes": [
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 1306.899658203125,
+            "val_mse": 2092.622802734375,
+            "train_rmse": 36.151067179311944,
+            "val_rmse": 45.745194313002706,
+            "train_mae": 25.295774459838867,
+            "val_mae": 33.503700256347656,
+            "train_r2": 0.6460976004600525,
+            "val_r2": 0.5752719044685364
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD001/W30_step1/h10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 955.3585815429688,
+            "val_mse": 1635.5087890625,
+            "train_rmse": 30.90887544934252,
+            "val_rmse": 40.44142417203553,
+            "train_mae": 20.327390670776367,
+            "val_mae": 26.622493743896484,
+            "train_r2": 0.7412933111190796,
+            "val_r2": 0.6680498123168945
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD001/W30_step1/h10_10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 788.0714721679688,
+            "val_mse": 1749.486572265625,
+            "train_rmse": 28.07261071165218,
+            "val_rmse": 41.82686424136556,
+            "train_mae": 17.858936309814453,
+            "val_mae": 26.150165557861328,
+            "train_r2": 0.7865939140319824,
+            "val_r2": 0.6449164152145386
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD001/W30_step1/h10_10_10"
+        }
+      ]
+    },
+    {
+      "dataset_name": "FD002",
+      "runs": [
+        {
+          "hidden_sizes": [
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 1604.456298828125,
+            "val_mse": 2062.834716796875,
+            "train_rmse": 40.05566500294465,
+            "val_rmse": 45.418440272612564,
+            "train_mae": 30.391483306884766,
+            "val_mae": 31.46492576599121,
+            "train_r2": 0.5804738998413086,
+            "val_r2": 0.5194476842880249
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD002/W30_step1/h10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 1491.3099365234375,
+            "val_mse": 1917.9635009765625,
+            "train_rmse": 38.61748226546414,
+            "val_rmse": 43.79456017562641,
+            "train_mae": 28.699289321899414,
+            "val_mae": 29.858688354492188,
+            "train_r2": 0.6100589632987976,
+            "val_r2": 0.5531964898109436
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD002/W30_step1/h10_10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 1462.2606201171875,
+            "val_mse": 1895.081787109375,
+            "train_rmse": 38.23951647337068,
+            "val_rmse": 43.53253710857403,
+            "train_mae": 28.3529052734375,
+            "val_mae": 29.758771896362305,
+            "train_r2": 0.6176546812057495,
+            "val_r2": 0.5585269331932068
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD002/W30_step1/h10_10_10"
+        }
+      ]
+    },
+    {
+      "dataset_name": "FD003",
+      "runs": [
+        {
+          "hidden_sizes": [
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 2283.1533203125,
+            "val_mse": 1696.593505859375,
+            "train_rmse": 47.78235364977849,
+            "val_rmse": 41.1897257317814,
+            "train_mae": 32.12977600097656,
+            "val_mae": 27.59368324279785,
+            "train_r2": 0.7405006885528564,
+            "val_r2": 0.7939589023590088
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD003/W30_step1/h10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 2010.041748046875,
+            "val_mse": 1729.312744140625,
+            "train_rmse": 44.83348913532021,
+            "val_rmse": 41.5850062419212,
+            "train_mae": 30.140485763549805,
+            "val_mae": 27.381580352783203,
+            "train_r2": 0.7715420722961426,
+            "val_r2": 0.7899853587150574
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD003/W30_step1/h10_10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 1652.5028076171875,
+            "val_mse": 1948.1983642578125,
+            "train_rmse": 40.650987781567956,
+            "val_rmse": 44.13840010985687,
+            "train_mae": 27.449037551879883,
+            "val_mae": 28.130693435668945,
+            "train_r2": 0.8121793270111084,
+            "val_r2": 0.763403058052063
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD003/W30_step1/h10_10_10"
+        }
+      ]
+    },
+    {
+      "dataset_name": "FD004",
+      "runs": [
+        {
+          "hidden_sizes": [
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 3408.62548828125,
+            "val_mse": 2712.49365234375,
+            "train_rmse": 58.38343505037409,
+            "val_rmse": 52.0816057005134,
+            "train_mae": 43.44900894165039,
+            "val_mae": 40.8040771484375,
+            "train_r2": 0.5162312984466553,
+            "val_r2": 0.5700075626373291
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD004/W30_step1/h10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 3240.775634765625,
+            "val_mse": 2506.91552734375,
+            "train_rmse": 56.927810732238996,
+            "val_rmse": 50.06910751495127,
+            "train_mae": 41.603721618652344,
+            "val_mae": 38.772483825683594,
+            "train_r2": 0.5400533676147461,
+            "val_r2": 0.6025964617729187
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD004/W30_step1/h10_10"
+        },
+        {
+          "hidden_sizes": [
+            10,
+            10,
+            10
+          ],
+          "final_metrics": {
+            "train_mse": 3120.676025390625,
+            "val_mse": 2328.42724609375,
+            "train_rmse": 55.86301124528309,
+            "val_rmse": 48.253779604231525,
+            "train_mae": 40.437294006347656,
+            "val_mae": 36.92739486694336,
+            "train_r2": 0.5570985078811646,
+            "val_r2": 0.630890965461731
+          },
+          "out_dir": "/data/manuel/time_trust/mlp_baselines/FD004/W30_step1/h10_10_10"
+        }
+      ]
+    }
+  ]
+}

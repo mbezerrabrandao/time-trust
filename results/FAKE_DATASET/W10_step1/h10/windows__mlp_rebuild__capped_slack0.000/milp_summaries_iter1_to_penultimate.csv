@@ -1,0 +1,10 @@
+iter_idx,n0_value,milp1_status,milp1_objective,milp1_solve_time_s,milp2_status,milp2_objective,milp2_solve_time_s
+1,9,OptimalGlobal,5.71356946415664,0.102,OptimalGlobal,5.0686967859785,3.595
+2,8,OptimalGlobal,6.75811724732652,0.225,OptimalGlobal,5.0686967859785,2.844
+3,7,OptimalGlobal,7.0039621305213,0.17,OptimalGlobal,5.0686967859785,1.076
+4,6,OptimalGlobal,6.53012151572535,0.103,OptimalGlobal,5.0686967859785,1.524
+5,5,OptimalGlobal,7.16764795194279,0.129,OptimalGlobal,5.0686967859785,2.122
+6,4,OptimalGlobal,6.75979619779297,0.064,OptimalGlobal,5.0686967859785,2.913
+7,3,OptimalGlobal,7.68970784340526,0.058,OptimalGlobal,5.0686967859785,1.551
+8,2,OptimalGlobal,8.94875030025234,0.024,OptimalGlobal,5.0686967859785,3.241
+9,1,OptimalGlobal,8.89376026412299,0.015,OptimalGlobal,5.0686967859785,1.527

@@ -1,0 +1,262 @@
+{
+  "iter_idx": 1,
+  "n0_value": 9,
+  "mode": "windows",
+  "baseline_mode": "capped",
+  "baseline_slack": 0.0,
+  "baseline_mae_clusters": 4.194720146173398,
+  "baseline_mae_floor": 4.194720146173398,
+  "summary_1": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.4353542446089,
+      "Num of Equations": 4202,
+      "Num of Variables": 3161,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 0.345
+    }
+  ],
+  "summary_2": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.1947201461734,
+      "Num of Equations": 6203,
+      "Num of Variables": 4171,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 8.279
+    }
+  ],
+  "selection_df": [
+    {
+      "w": "1",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "2",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "3",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "4",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "5",
+      "level": 0.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "6",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "7",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "8",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "9",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "10",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    }
+  ],
+  "selected_original": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "selection_vector": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "importance_vector": [
+    16.191730944332775,
+    17.882681880294772,
+    17.277063458869264,
+    16.407902513481844,
+    0.0,
+    17.383893135534613,
+    17.54434637017194,
+    15.914666423798822,
+    17.60557265566744,
+    19.394037666525968
+  ],
+  "importance_vector_norm": [
+    0.10405870018014539,
+    0.11492586176216218,
+    0.1110337599260242,
+    0.10544796069706545,
+    0.0,
+    0.11172031760986172,
+    0.11275149550513819,
+    0.10227810155409858,
+    0.11314497583824305,
+    0.12463882692726118
+  ],
+  "selected_sensors": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selected_windows": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "X_train_shape_next": [
+    3014,
+    5,
+    9
+  ],
+  "X_val_shape_next": [
+    319,
+    5,
+    9
+  ],
+  "M_curr": 5,
+  "W_curr": 10,
+  "input_dim": 50,
+  "orig_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "surrogate_from_baseline": true,
+  "hidden_sizes": [
+    10,
+    10
+  ],
+  "mlp_mode": "mlp_rebuild",
+  "mlp_metrics": {
+    "train_mse": 139.5313262939453,
+    "val_mse": 136.56320190429688,
+    "train_rmse": 11.812337884345558,
+    "val_rmse": 11.686025924337875,
+    "train_mae": 9.567459106445312,
+    "val_mae": 9.458296775817871,
+    "train_r2": 0.04856610298156738,
+    "val_r2": -0.0009845495223999023
+  },
+  "mlp_train_time": 0.0
+}
