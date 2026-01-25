@@ -1,0 +1,158 @@
+{
+  "iter_idx": 8,
+  "n0_value": 2,
+  "mode": "windows",
+  "baseline_mode": "capped",
+  "baseline_slack": 0.0,
+  "baseline_mae_clusters": 4.001159635451607,
+  "baseline_mae_floor": 4.001159635451607,
+  "summary_1": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.4660595704195,
+      "Num of Equations": 6167,
+      "Num of Variables": 4619,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 0.559
+    }
+  ],
+  "summary_2": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.00115963545161,
+      "Num of Equations": 6768,
+      "Num of Variables": 4929,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 13.449
+    }
+  ],
+  "selection_df": [
+    {
+      "w": "1",
+      "level": 0.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "2",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "3",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    }
+  ],
+  "selected_original": [
+    1,
+    8
+  ],
+  "selection_vector": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "importance_vector": [
+    0.0,
+    19.236142483258657,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    22.6335210633965,
+    0.0
+  ],
+  "importance_vector_norm": [
+    0.0,
+    0.45942911535039965,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5405708846496002,
+    0.0
+  ],
+  "selected_sensors": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selected_windows": [
+    2,
+    9
+  ],
+  "X_train_shape_next": [
+    3014,
+    5,
+    2
+  ],
+  "X_val_shape_next": [
+    319,
+    5,
+    2
+  ],
+  "M_curr": 5,
+  "W_curr": 3,
+  "input_dim": 15,
+  "orig_indices": [
+    0,
+    1,
+    8,
+    10,
+    11,
+    18,
+    20,
+    21,
+    28,
+    30,
+    31,
+    38,
+    40,
+    41,
+    48
+  ],
+  "surrogate_from_baseline": false,
+  "hidden_sizes": [
+    10,
+    10,
+    10
+  ],
+  "mlp_mode": "mlp_rebuild",
+  "mlp_metrics": {
+    "train_mse": 141.43487548828125,
+    "val_mse": 139.6175994873047,
+    "train_rmse": 11.89263955092734,
+    "val_rmse": 11.815989145530928,
+    "train_mae": 9.758316993713379,
+    "val_mae": 10.133298873901367,
+    "train_r2": 0.03558623790740967,
+    "val_r2": -0.023372769355773926
+  },
+  "mlp_train_time": 5.311348477029242
+}

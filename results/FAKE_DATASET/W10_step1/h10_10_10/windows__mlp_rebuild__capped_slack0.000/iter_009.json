@@ -1,0 +1,143 @@
+{
+  "iter_idx": 9,
+  "n0_value": 1,
+  "mode": "windows",
+  "baseline_mode": "capped",
+  "baseline_slack": 0.0,
+  "baseline_mae_clusters": 4.001159635451607,
+  "baseline_mae_floor": 4.001159635451607,
+  "summary_1": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.27381401156424,
+      "Num of Equations": 6162,
+      "Num of Variables": 4613,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 0.055
+    }
+  ],
+  "summary_2": [
+    {
+      "Solver Status": "Normal",
+      "Model Status": "OptimalGlobal",
+      "Objective": 4.00115963545161,
+      "Num of Equations": 6563,
+      "Num of Variables": 4823,
+      "Model Type": "MIP",
+      "Solver": "GUROBI",
+      "Solver Time": 17.274
+    }
+  ],
+  "selection_df": [
+    {
+      "w": "1",
+      "level": 0.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    },
+    {
+      "w": "2",
+      "level": 1.0,
+      "marginal": -0.0,
+      "lower": 0.0,
+      "upper": 1.0,
+      "scale": 1.0
+    }
+  ],
+  "selected_original": [
+    8
+  ],
+  "selection_vector": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "importance_vector": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    14.254601031765532,
+    0.0
+  ],
+  "importance_vector_norm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "selected_sensors": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selected_windows": [
+    9
+  ],
+  "X_train_shape_next": [
+    3014,
+    5,
+    1
+  ],
+  "X_val_shape_next": [
+    319,
+    5,
+    1
+  ],
+  "M_curr": 5,
+  "W_curr": 2,
+  "input_dim": 10,
+  "orig_indices": [
+    1,
+    8,
+    11,
+    18,
+    21,
+    28,
+    31,
+    38,
+    41,
+    48
+  ],
+  "surrogate_from_baseline": false,
+  "hidden_sizes": [
+    10,
+    10,
+    10
+  ],
+  "mlp_mode": "mlp_rebuild",
+  "mlp_metrics": {
+    "train_mse": 139.16848754882812,
+    "val_mse": 137.8259735107422,
+    "train_rmse": 11.79696942222146,
+    "val_rmse": 11.739930728532524,
+    "train_mae": 9.693203926086426,
+    "val_mae": 10.024596214294434,
+    "train_r2": 0.05104029178619385,
+    "val_r2": -0.010240435600280762
+  },
+  "mlp_train_time": 5.288305557041895
+}

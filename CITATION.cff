@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Bezerra-Brandao"
+  given-names: "Manuel"
+- family-names: "Assaoka"
+  given-names: "João"
+- family-names: "Berton"
+  given-names: "Lilian"
+title: "Optimization-Based Feature Selection for Remaining Useful Life Prediction in Industrial Prognostics"
+date-released: 2025-11-19
+url: "https://github.com/assaoka/Optimization-Based_Feature_Selection_for_Remaining_Useful_Life_Prediction_in_Industrial_Prognostics"

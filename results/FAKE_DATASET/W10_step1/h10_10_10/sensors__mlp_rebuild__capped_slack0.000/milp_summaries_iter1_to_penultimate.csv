@@ -1,0 +1,5 @@
+iter_idx,n0_value,milp1_status,milp1_objective,milp1_solve_time_s,milp2_status,milp2_objective,milp2_solve_time_s
+1,4,OptimalGlobal,3.93045588380285,2.874,OptimalGlobal,4.00115955801739,52.867
+2,3,OptimalGlobal,3.70708161496016,1.346,Feasible,10.4753959073136,60.093
+3,2,OptimalGlobal,3.81093204943559,1.738,Feasible,8.83440325244457,60.095
+4,1,OptimalGlobal,5.3006673627592,0.054,Feasible,10.7946492490812,60.143

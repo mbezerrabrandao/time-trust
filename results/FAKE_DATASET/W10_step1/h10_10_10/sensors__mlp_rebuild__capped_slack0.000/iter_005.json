@@ -1,0 +1,36 @@
+{
+  "iter_idx": 5,
+  "n0_value": 0,
+  "mode": "sensors",
+  "is_final_mlp": true,
+  "orig_indices": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "input_dim": 10,
+  "hidden_sizes": [
+    10,
+    10,
+    10
+  ],
+  "mlp_mode": "mlp_rebuild",
+  "mlp_metrics": {
+    "train_mse": 137.78656005859375,
+    "val_mse": 116.16981506347656,
+    "train_rmse": 11.738252001835441,
+    "val_rmse": 10.778210197592017,
+    "train_mae": 9.69906234741211,
+    "val_mae": 9.107547760009766,
+    "train_r2": 0.0604633092880249,
+    "val_r2": 0.1484953761100769
+  },
+  "mlp_train_time": 5.548578579968307
+}
