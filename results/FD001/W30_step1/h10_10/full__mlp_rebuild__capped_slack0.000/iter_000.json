@@ -2280,6 +2280,6 @@
     "train_r2": 0.7412933111190796,
     "val_r2": 0.6680498123168945
   },
-  "baseline_mae_clusters": 10.864706796732035,
-  "baseline_mae_floor": 10.864706796732035
+  "baseline_mae_clusters": 10.864706492267828,
+  "baseline_mae_floor": 10.864706492267828
 }

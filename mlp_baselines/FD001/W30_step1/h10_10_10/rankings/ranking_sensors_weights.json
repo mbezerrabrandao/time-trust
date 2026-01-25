@@ -1,0 +1,163 @@
+{
+  "type": "group_ranking_mlp_first_layer",
+  "group_mode": "sensors",
+  "n_sensors": 15,
+  "n_windows": 30,
+  "input_dim": 450,
+  "definition": {
+    "feature_importance": "I_f = sum_h |W1[f,h]|",
+    "group_aggregation": "sum over features in the group",
+    "normalization": "scores_norm = scores / sum(scores)",
+    "flatten_order": "sensor-major: flat = s*W0 + w"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 71.25064948973159,
+      "score_norm": 0.14578809555605407
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 55.58626944888965,
+      "score_norm": 0.11373673671826934
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 44.67220796219772,
+      "score_norm": 0.09140514745807876
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 32.4366017539287,
+      "score_norm": 0.06636950582039168
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 31.458946161728818,
+      "score_norm": 0.06436909532705172
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 29.544070722418837,
+      "score_norm": 0.06045101113380802
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 28.846944854129106,
+      "score_norm": 0.05902460094065648
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 27.093025148380548,
+      "score_norm": 0.05543585311182205
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 26.868541700067,
+      "score_norm": 0.05497653078075748
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 26.167691227659816,
+      "score_norm": 0.05354249956316796
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 25.65931266429834,
+      "score_norm": 0.05250229090395183
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 24.23283651773818,
+      "score_norm": 0.049583535183793576
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 21.89461931027472,
+      "score_norm": 0.04479923867402464
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": 21.624734001161414,
+      "score_norm": 0.04424701823089933
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 21.391035448221373,
+      "score_norm": 0.04376884059727307
+    }
+  ],
+  "meta": {
+    "dataset_name": "FD001",
+    "window_tag": "W30_step1",
+    "hidden_layers": [
+      10,
+      10,
+      10
+    ],
+    "M": 15,
+    "W": 30,
+    "baseline_artifact_path": "mlp_baselines/FD001/W30_step1/h10_10_10/baseline_mlp_artifacts.npz",
+    "baseline_final_metrics": {
+      "train_mse": 788.0714721679688,
+      "val_mse": 1749.486572265625,
+      "train_rmse": 28.07261071165218,
+      "val_rmse": 41.82686424136556,
+      "train_mae": 17.858936309814453,
+      "val_mae": 26.150165557861328,
+      "train_r2": 0.7865939140319824,
+      "val_r2": 0.6449164152145386
+    },
+    "random_avg": {
+      "n_trials": 200,
+      "seed": 2026,
+      "random_mode": "per_group"
+    },
+    "method": "mlp_first_layer_grouped"
+  }
+}

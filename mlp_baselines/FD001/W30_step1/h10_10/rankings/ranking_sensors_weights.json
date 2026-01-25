@@ -1,0 +1,162 @@
+{
+  "type": "group_ranking_mlp_first_layer",
+  "group_mode": "sensors",
+  "n_sensors": 15,
+  "n_windows": 30,
+  "input_dim": 450,
+  "definition": {
+    "feature_importance": "I_f = sum_h |W1[f,h]|",
+    "group_aggregation": "sum over features in the group",
+    "normalization": "scores_norm = scores / sum(scores)",
+    "flatten_order": "sensor-major: flat = s*W0 + w"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 118.45863143901806,
+      "score_norm": 0.20553306901001384
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 46.36834926744632,
+      "score_norm": 0.08045196043626913
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 44.22082969441544,
+      "score_norm": 0.07672588084846524
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 39.99519776343368,
+      "score_norm": 0.06939414749369914
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 38.00174113441608,
+      "score_norm": 0.06593537666439687
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 36.69940109853633,
+      "score_norm": 0.06367573596774764
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 36.44129944348242,
+      "score_norm": 0.06322791359604396
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 29.67924630222842,
+      "score_norm": 0.05149533220414924
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 29.352301220525987,
+      "score_norm": 0.0509280622194827
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 27.776116087916307,
+      "score_norm": 0.048193283303857665
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 27.502580590487923,
+      "score_norm": 0.04771868225886266
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 27.172086222912185,
+      "score_norm": 0.047145254043179326
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": 25.675604706950253,
+      "score_norm": 0.044548765843408486
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 25.0259627570631,
+      "score_norm": 0.04342159678788302
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 23.978935345978243,
+      "score_norm": 0.0416049393225411
+    }
+  ],
+  "meta": {
+    "dataset_name": "FD001",
+    "window_tag": "W30_step1",
+    "hidden_layers": [
+      10,
+      10
+    ],
+    "M": 15,
+    "W": 30,
+    "baseline_artifact_path": "mlp_baselines/FD001/W30_step1/h10_10/baseline_mlp_artifacts.npz",
+    "baseline_final_metrics": {
+      "train_mse": 955.3585815429688,
+      "val_mse": 1635.5087890625,
+      "train_rmse": 30.90887544934252,
+      "val_rmse": 40.44142417203553,
+      "train_mae": 20.327390670776367,
+      "val_mae": 26.622493743896484,
+      "train_r2": 0.7412933111190796,
+      "val_r2": 0.6680498123168945
+    },
+    "random_avg": {
+      "n_trials": 200,
+      "seed": 2026,
+      "random_mode": "per_group"
+    },
+    "method": "mlp_first_layer_grouped"
+  }
+}

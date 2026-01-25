@@ -1,0 +1,121 @@
+{
+  "type": "group_ranking_mlp_first_layer",
+  "group_mode": "windows",
+  "n_sensors": 5,
+  "n_windows": 10,
+  "input_dim": 50,
+  "definition": {
+    "feature_importance": "I_f = sum_h |W1[f,h]|",
+    "group_aggregation": "sum over features in the group",
+    "normalization": "scores_norm = scores / sum(scores)",
+    "flatten_order": "sensor-major: flat = s*W0 + w"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "w10",
+      "score": 14.2468066746369,
+      "score_norm": 0.10969518577155009
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "w7",
+      "score": 13.624369465338532,
+      "score_norm": 0.10490264756531027
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "w8",
+      "score": 13.41064959205687,
+      "score_norm": 0.10325708293190786
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "w6",
+      "score": 13.131327230483294,
+      "score_norm": 0.10110640320116444
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "w2",
+      "score": 13.073775912285782,
+      "score_norm": 0.10066327916044081
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "w4",
+      "score": 13.029127842281014,
+      "score_norm": 0.10031950539798544
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "w1",
+      "score": 12.678400215692818,
+      "score_norm": 0.09761903131755172
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "w9",
+      "score": 12.652571965008974,
+      "score_norm": 0.09742016326089714
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "w3",
+      "score": 12.298408889211714,
+      "score_norm": 0.09469323748165095
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "w5",
+      "score": 11.730878793634474,
+      "score_norm": 0.09032346391154125
+    }
+  ],
+  "meta": {
+    "dataset_name": "FAKE_DATASET",
+    "window_tag": "W10_step1",
+    "hidden_layers": [
+      10
+    ],
+    "M": 5,
+    "W": 10,
+    "baseline_artifact_path": "mlp_baselines/FAKE_DATASET/W10_step1/h10/baseline_mlp_artifacts.npz",
+    "baseline_final_metrics": {
+      "train_mse": 172.44189453125,
+      "val_mse": 168.739501953125,
+      "train_rmse": 13.131713312864015,
+      "val_rmse": 12.989976980469404,
+      "train_mae": 10.556182861328125,
+      "val_mae": 10.55332088470459,
+      "train_r2": -0.1758439540863037,
+      "val_r2": -0.23683130741119385
+    },
+    "random_avg": {
+      "n_trials": 200,
+      "seed": 2026,
+      "random_mode": "per_group"
+    },
+    "method": "mlp_first_layer_grouped"
+  }
+}

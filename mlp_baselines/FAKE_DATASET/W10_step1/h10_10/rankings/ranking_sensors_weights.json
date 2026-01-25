@@ -1,0 +1,82 @@
+{
+  "type": "group_ranking_mlp_first_layer",
+  "group_mode": "sensors",
+  "n_sensors": 5,
+  "n_windows": 10,
+  "input_dim": 50,
+  "definition": {
+    "feature_importance": "I_f = sum_h |W1[f,h]|",
+    "group_aggregation": "sum over features in the group",
+    "normalization": "scores_norm = scores / sum(scores)",
+    "flatten_order": "sensor-major: flat = s*W0 + w"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 24.081021167803556,
+      "score_norm": 0.2313741604768639
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 22.10381828714162,
+      "score_norm": 0.2123768906593681
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 21.894850238779327,
+      "score_norm": 0.2103690934642492
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 19.290224511176348,
+      "score_norm": 0.18534344829408853
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 16.7083507066709,
+      "score_norm": 0.16053640710543024
+    }
+  ],
+  "meta": {
+    "dataset_name": "FAKE_DATASET",
+    "window_tag": "W10_step1",
+    "hidden_layers": [
+      10,
+      10
+    ],
+    "M": 5,
+    "W": 10,
+    "baseline_artifact_path": "mlp_baselines/FAKE_DATASET/W10_step1/h10_10/baseline_mlp_artifacts.npz",
+    "baseline_final_metrics": {
+      "train_mse": 139.5313262939453,
+      "val_mse": 136.56320190429688,
+      "train_rmse": 11.812337884345558,
+      "val_rmse": 11.686025924337875,
+      "train_mae": 9.567459106445312,
+      "val_mae": 9.458296775817871,
+      "train_r2": 0.04856610298156738,
+      "val_r2": -0.0009845495223999023
+    },
+    "random_avg": {
+      "n_trials": 200,
+      "seed": 2026,
+      "random_mode": "per_group"
+    },
+    "method": "mlp_first_layer_grouped"
+  }
+}

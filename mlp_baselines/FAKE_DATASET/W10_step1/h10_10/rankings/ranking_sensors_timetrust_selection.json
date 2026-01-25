@@ -1,0 +1,93 @@
+{
+  "type": "timetrust_group_ranking_selection_based",
+  "group_mode": "sensors",
+  "n_groups": 5,
+  "n_iters": 5,
+  "definition": {
+    "ranking_rule": "Rank groups by when they are first turned off in selection_vector. First turned off gets last rank, last surviving gets rank 1.",
+    "off_iterpos": "first t where selection[t,g] == 0, or T if never turned off",
+    "tie_break": "stable by group index"
+  },
+  "trace_meta": {
+    "iter_idx": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "n0_value": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "turned_off": 0,
+      "off_iterpos": -1,
+      "off_iter_idx": -1,
+      "survived_all_iters": 1,
+      "survival_score": 5
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "turned_off": 1,
+      "off_iterpos": 4,
+      "off_iter_idx": 4,
+      "survived_all_iters": 0,
+      "survival_score": 4
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "turned_off": 1,
+      "off_iterpos": 3,
+      "off_iter_idx": 3,
+      "survived_all_iters": 0,
+      "survival_score": 3
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "turned_off": 1,
+      "off_iterpos": 2,
+      "off_iter_idx": 2,
+      "survived_all_iters": 0,
+      "survival_score": 2
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "turned_off": 1,
+      "off_iterpos": 1,
+      "off_iter_idx": 1,
+      "survived_all_iters": 0,
+      "survival_score": 1
+    }
+  ],
+  "meta": {
+    "dataset_name": "FAKE_DATASET",
+    "window_tag": "W10_step1",
+    "hidden_tag": "h10_10",
+    "mode_dir": "sensors__mlp_rebuild__capped_slack0.000",
+    "source_json": "results/FAKE_DATASET/W10_step1/h10_10/sensors__mlp_rebuild__capped_slack0.000/vectors_selection_importance.json",
+    "results_root": "results",
+    "baselines_root": "mlp_baselines"
+  }
+}

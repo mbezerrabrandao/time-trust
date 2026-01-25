@@ -38,7 +38,7 @@ def set_global_seed(seed: int = RANDOM_SEED) -> None:
 @dataclass
 class MLPTrainConfig:
     learning_rate: float = 1e-3
-    epochs: int = 60
+    epochs: int = 30
     batch_size: int = 128
     seed: int = RANDOM_SEED
     verbose: int = 0
