@@ -20,7 +20,7 @@
   "run_extra": {
     "M0": 15,
     "W0": 30,
-    "baseline_mae_clusters": 10.129716650312165,
-    "baseline_mae_floor": 10.129716650312165
+    "baseline_mae_clusters": 10.129716831424513,
+    "baseline_mae_floor": 10.129716831424513
   }
 }

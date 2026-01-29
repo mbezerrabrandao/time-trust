@@ -1,0 +1,26 @@
+{
+  "iter_idx": 480,
+  "n0_value": 0,
+  "mode": "full",
+  "is_final_mlp": true,
+  "orig_indices": [
+    268
+  ],
+  "input_dim": 1,
+  "hidden_sizes": [
+    10,
+    10
+  ],
+  "mlp_mode": "mlp_rebuild",
+  "mlp_metrics": {
+    "train_mse": 4450.29931640625,
+    "val_mse": 3563.781005859375,
+    "train_rmse": 66.71056375422299,
+    "val_rmse": 59.6974120532823,
+    "train_mae": 47.28512954711914,
+    "val_mae": 43.2866325378418,
+    "train_r2": 0.49418652057647705,
+    "val_r2": 0.567200243473053
+  },
+  "mlp_train_time": 12.146322908025468
+}
