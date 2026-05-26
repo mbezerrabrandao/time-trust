@@ -1,0 +1,569 @@
+dataset,window_tag,hidden,mode,bin,draw_source,group,n_runs,mean_survival_steps,mean_survival_fraction,mean_deepest_n0_present
+FD001,W30_step1,10,sensors,low,train,1,5,4.4,0.3142857142857143,10.6
+FD001,W30_step1,10,sensors,low,train,10,5,8.2,0.5857142857142857,6.8
+FD001,W30_step1,10,sensors,low,train,11,5,12.8,0.9142857142857144,2.2
+FD001,W30_step1,10,sensors,low,train,12,5,7.2,0.5142857142857143,7.8
+FD001,W30_step1,10,sensors,low,train,13,5,1.2,0.08571428571428572,13.8
+FD001,W30_step1,10,sensors,low,train,14,5,3.2,0.22857142857142856,11.8
+FD001,W30_step1,10,sensors,low,train,15,5,6.4,0.4571428571428572,8.6
+FD001,W30_step1,10,sensors,low,train,3,5,10.8,0.7714285714285715,4.2
+FD001,W30_step1,10,sensors,low,train,4,5,4.6,0.3285714285714285,10.4
+FD001,W30_step1,10,sensors,low,train,5,5,5.2,0.37142857142857144,9.8
+FD001,W30_step1,10,sensors,low,train,6,5,12.4,0.8857142857142858,2.6
+FD001,W30_step1,10,sensors,low,train,7,5,7.8,0.5571428571428572,7.2
+FD001,W30_step1,10,sensors,low,train,8,5,11.4,0.8142857142857143,3.6
+FD001,W30_step1,10,sensors,low,train,9,5,9.4,0.6714285714285715,5.6
+FD001,W30_step1,10,windows,low,train,1,5,24.4,0.8413793103448276,5.6
+FD001,W30_step1,10,windows,low,train,10,5,3.2,0.1103448275862069,26.8
+FD001,W30_step1,10,windows,low,train,11,5,6.8,0.23448275862068962,23.2
+FD001,W30_step1,10,windows,low,train,12,4,5.0,0.1724137931034483,25.0
+FD001,W30_step1,10,windows,low,train,13,4,9.25,0.3189655172413793,20.75
+FD001,W30_step1,10,windows,low,train,14,5,9.4,0.32413793103448274,20.6
+FD001,W30_step1,10,windows,low,train,15,3,7.333333333333333,0.2528735632183908,22.666666666666668
+FD001,W30_step1,10,windows,low,train,16,5,11.8,0.4068965517241379,18.2
+FD001,W30_step1,10,windows,low,train,17,5,10.2,0.35172413793103446,19.8
+FD001,W30_step1,10,windows,low,train,18,5,18.6,0.6413793103448275,11.4
+FD001,W30_step1,10,windows,low,train,19,5,11.6,0.4,18.4
+FD001,W30_step1,10,windows,low,train,2,5,14.2,0.4896551724137931,15.8
+FD001,W30_step1,10,windows,low,train,20,5,21.2,0.7310344827586206,8.8
+FD001,W30_step1,10,windows,low,train,21,5,17.6,0.606896551724138,12.4
+FD001,W30_step1,10,windows,low,train,22,4,19.0,0.6551724137931034,11.0
+FD001,W30_step1,10,windows,low,train,23,5,19.6,0.6758620689655173,10.4
+FD001,W30_step1,10,windows,low,train,24,5,20.6,0.7103448275862069,9.4
+FD001,W30_step1,10,windows,low,train,25,5,25.2,0.8689655172413794,4.8
+FD001,W30_step1,10,windows,low,train,26,5,21.0,0.7241379310344828,9.0
+FD001,W30_step1,10,windows,low,train,27,5,24.8,0.8551724137931034,5.2
+FD001,W30_step1,10,windows,low,train,28,5,22.4,0.7724137931034483,7.6
+FD001,W30_step1,10,windows,low,train,29,5,24.4,0.8413793103448276,5.6
+FD001,W30_step1,10,windows,low,train,3,5,16.6,0.5724137931034483,13.4
+FD001,W30_step1,10,windows,low,train,30,5,26.6,0.9172413793103449,3.4
+FD001,W30_step1,10,windows,low,train,4,5,7.0,0.24137931034482754,23.0
+FD001,W30_step1,10,windows,low,train,5,5,8.4,0.2896551724137931,21.6
+FD001,W30_step1,10,windows,low,train,6,5,8.6,0.29655172413793107,21.4
+FD001,W30_step1,10,windows,low,train,7,5,16.2,0.5586206896551724,13.8
+FD001,W30_step1,10,windows,low,train,8,5,3.8,0.13103448275862067,26.2
+FD001,W30_step1,10,windows,low,train,9,5,9.8,0.3379310344827586,20.2
+FD001,W30_step1,10 10,sensors,low,train,1,5,11.0,0.7857142857142858,4.0
+FD001,W30_step1,10 10,sensors,low,train,10,5,7.0,0.5,8.0
+FD001,W30_step1,10 10,sensors,low,train,11,4,8.75,0.625,6.25
+FD001,W30_step1,10 10,sensors,low,train,12,5,7.6,0.5428571428571429,7.4
+FD001,W30_step1,10 10,sensors,low,train,13,4,9.0,0.6428571428571428,6.0
+FD001,W30_step1,10 10,sensors,low,train,14,5,5.2,0.37142857142857144,9.8
+FD001,W30_step1,10 10,sensors,low,train,15,5,9.4,0.6714285714285714,5.6
+FD001,W30_step1,10 10,sensors,low,train,2,5,3.6,0.2571428571428571,11.4
+FD001,W30_step1,10 10,sensors,low,train,3,5,5.4,0.38571428571428573,9.6
+FD001,W30_step1,10 10,sensors,low,train,4,4,6.5,0.4642857142857143,8.5
+FD001,W30_step1,10 10,sensors,low,train,5,5,8.2,0.5857142857142857,6.8
+FD001,W30_step1,10 10,sensors,low,train,6,5,5.6,0.4000000000000001,9.4
+FD001,W30_step1,10 10,sensors,low,train,7,4,5.5,0.3928571428571428,9.5
+FD001,W30_step1,10 10,sensors,low,train,8,5,8.4,0.6,6.6
+FD001,W30_step1,10 10,sensors,low,train,9,4,12.25,0.875,2.75
+FD001,W30_step1,10 10,windows,low,train,1,5,11.0,0.3793103448275862,19.0
+FD001,W30_step1,10 10,windows,low,train,10,5,11.2,0.38620689655172413,18.8
+FD001,W30_step1,10 10,windows,low,train,11,5,15.8,0.5448275862068965,14.2
+FD001,W30_step1,10 10,windows,low,train,12,5,16.0,0.5517241379310345,14.0
+FD001,W30_step1,10 10,windows,low,train,13,5,14.4,0.496551724137931,15.6
+FD001,W30_step1,10 10,windows,low,train,14,5,15.4,0.5310344827586206,14.6
+FD001,W30_step1,10 10,windows,low,train,15,5,12.4,0.4275862068965518,17.6
+FD001,W30_step1,10 10,windows,low,train,16,5,13.0,0.44827586206896547,17.0
+FD001,W30_step1,10 10,windows,low,train,17,5,11.2,0.38620689655172413,18.8
+FD001,W30_step1,10 10,windows,low,train,18,5,8.6,0.29655172413793107,21.4
+FD001,W30_step1,10 10,windows,low,train,19,5,18.6,0.6413793103448275,11.4
+FD001,W30_step1,10 10,windows,low,train,2,5,11.2,0.38620689655172413,18.8
+FD001,W30_step1,10 10,windows,low,train,20,5,15.0,0.5172413793103449,15.0
+FD001,W30_step1,10 10,windows,low,train,21,5,10.4,0.3586206896551724,19.6
+FD001,W30_step1,10 10,windows,low,train,22,5,10.8,0.37241379310344824,19.2
+FD001,W30_step1,10 10,windows,low,train,23,5,23.4,0.8068965517241379,6.6
+FD001,W30_step1,10 10,windows,low,train,24,5,16.2,0.5586206896551724,13.8
+FD001,W30_step1,10 10,windows,low,train,25,5,17.2,0.5931034482758621,12.8
+FD001,W30_step1,10 10,windows,low,train,26,3,17.333333333333332,0.5977011494252874,12.666666666666666
+FD001,W30_step1,10 10,windows,low,train,27,5,20.8,0.7172413793103448,9.2
+FD001,W30_step1,10 10,windows,low,train,28,4,8.0,0.27586206896551724,22.0
+FD001,W30_step1,10 10,windows,low,train,29,5,14.2,0.48965517241379314,15.8
+FD001,W30_step1,10 10,windows,low,train,3,5,20.4,0.7034482758620689,9.6
+FD001,W30_step1,10 10,windows,low,train,30,5,25.8,0.8896551724137931,4.2
+FD001,W30_step1,10 10,windows,low,train,4,5,20.8,0.7172413793103447,9.2
+FD001,W30_step1,10 10,windows,low,train,5,4,22.5,0.7758620689655172,7.5
+FD001,W30_step1,10 10,windows,low,train,6,4,17.5,0.603448275862069,12.5
+FD001,W30_step1,10 10,windows,low,train,7,5,11.4,0.3931034482758621,18.6
+FD001,W30_step1,10 10,windows,low,train,8,5,7.2,0.2482758620689655,22.8
+FD001,W30_step1,10 10,windows,low,train,9,5,13.8,0.47586206896551725,16.2
+FD001,W30_step1,10 10 10,sensors,low,train,1,5,11.4,0.8142857142857143,3.6
+FD001,W30_step1,10 10 10,sensors,low,train,10,5,7.4,0.5285714285714286,7.6
+FD001,W30_step1,10 10 10,sensors,low,train,11,5,4.4,0.3142857142857143,10.6
+FD001,W30_step1,10 10 10,sensors,low,train,12,5,11.2,0.8,3.8
+FD001,W30_step1,10 10 10,sensors,low,train,13,3,3.3333333333333335,0.2380952380952381,11.666666666666666
+FD001,W30_step1,10 10 10,sensors,low,train,14,3,2.3333333333333335,0.16666666666666666,12.666666666666666
+FD001,W30_step1,10 10 10,sensors,low,train,15,4,3.0,0.21428571428571427,12.0
+FD001,W30_step1,10 10 10,sensors,low,train,2,5,6.8,0.48571428571428577,8.2
+FD001,W30_step1,10 10 10,sensors,low,train,3,5,7.2,0.5142857142857143,7.8
+FD001,W30_step1,10 10 10,sensors,low,train,4,5,2.0,0.14285714285714285,13.0
+FD001,W30_step1,10 10 10,sensors,low,train,5,5,12.8,0.9142857142857144,2.2
+FD001,W30_step1,10 10 10,sensors,low,train,6,5,9.6,0.6857142857142857,5.4
+FD001,W30_step1,10 10 10,sensors,low,train,7,5,8.4,0.6,6.6
+FD001,W30_step1,10 10 10,sensors,low,train,8,5,10.0,0.7142857142857142,5.0
+FD001,W30_step1,10 10 10,sensors,low,train,9,5,8.0,0.5714285714285714,7.0
+FD001,W30_step1,10 10 10,windows,low,train,1,5,27.0,0.9310344827586207,3.0
+FD001,W30_step1,10 10 10,windows,low,train,10,5,4.0,0.13793103448275862,26.0
+FD001,W30_step1,10 10 10,windows,low,train,11,5,12.4,0.4275862068965517,17.6
+FD001,W30_step1,10 10 10,windows,low,train,12,5,11.4,0.3931034482758621,18.6
+FD001,W30_step1,10 10 10,windows,low,train,13,4,3.0,0.10344827586206896,27.0
+FD001,W30_step1,10 10 10,windows,low,train,14,4,3.75,0.12931034482758622,26.25
+FD001,W30_step1,10 10 10,windows,low,train,15,4,2.75,0.09482758620689656,27.25
+FD001,W30_step1,10 10 10,windows,low,train,16,5,15.2,0.5241379310344827,14.8
+FD001,W30_step1,10 10 10,windows,low,train,17,4,5.75,0.19827586206896552,24.25
+FD001,W30_step1,10 10 10,windows,low,train,18,5,11.0,0.3793103448275862,19.0
+FD001,W30_step1,10 10 10,windows,low,train,19,5,16.0,0.5517241379310345,14.0
+FD001,W30_step1,10 10 10,windows,low,train,2,5,19.6,0.6758620689655171,10.4
+FD001,W30_step1,10 10 10,windows,low,train,20,4,17.25,0.5948275862068966,12.75
+FD001,W30_step1,10 10 10,windows,low,train,21,5,15.4,0.5310344827586208,14.6
+FD001,W30_step1,10 10 10,windows,low,train,22,5,19.6,0.6758620689655173,10.4
+FD001,W30_step1,10 10 10,windows,low,train,23,5,12.4,0.4275862068965517,17.6
+FD001,W30_step1,10 10 10,windows,low,train,24,5,23.0,0.793103448275862,7.0
+FD001,W30_step1,10 10 10,windows,low,train,25,5,17.4,0.6,12.6
+FD001,W30_step1,10 10 10,windows,low,train,26,5,25.8,0.8896551724137932,4.2
+FD001,W30_step1,10 10 10,windows,low,train,27,5,24.2,0.8344827586206897,5.8
+FD001,W30_step1,10 10 10,windows,low,train,28,5,24.4,0.8413793103448276,5.6
+FD001,W30_step1,10 10 10,windows,low,train,29,5,22.4,0.7724137931034483,7.6
+FD001,W30_step1,10 10 10,windows,low,train,3,5,15.0,0.5172413793103449,15.0
+FD001,W30_step1,10 10 10,windows,low,train,30,5,27.6,0.9517241379310345,2.4
+FD001,W30_step1,10 10 10,windows,low,train,4,5,16.2,0.5586206896551724,13.8
+FD001,W30_step1,10 10 10,windows,low,train,5,5,15.4,0.5310344827586208,14.6
+FD001,W30_step1,10 10 10,windows,low,train,6,5,6.8,0.23448275862068968,23.2
+FD001,W30_step1,10 10 10,windows,low,train,7,5,11.6,0.4,18.4
+FD001,W30_step1,10 10 10,windows,low,train,8,5,10.0,0.3448275862068966,20.0
+FD001,W30_step1,10 10 10,windows,low,train,9,5,5.2,0.1793103448275862,24.8
+FD002,W30_step1,10,sensors,low,train,1,5,19.0,0.95,2.0
+FD002,W30_step1,10,sensors,low,train,10,5,11.0,0.55,10.0
+FD002,W30_step1,10,sensors,low,train,11,5,10.0,0.5,11.0
+FD002,W30_step1,10,sensors,low,train,12,5,9.0,0.45,12.0
+FD002,W30_step1,10,sensors,low,train,13,5,8.0,0.4,13.0
+FD002,W30_step1,10,sensors,low,train,14,5,7.0,0.35,14.0
+FD002,W30_step1,10,sensors,low,train,15,5,6.0,0.3,15.0
+FD002,W30_step1,10,sensors,low,train,16,5,5.0,0.25,16.0
+FD002,W30_step1,10,sensors,low,train,17,5,4.0,0.2,17.0
+FD002,W30_step1,10,sensors,low,train,18,5,3.0,0.15,18.0
+FD002,W30_step1,10,sensors,low,train,19,5,2.0,0.1,19.0
+FD002,W30_step1,10,sensors,low,train,2,5,20.0,1.0,1.0
+FD002,W30_step1,10,sensors,low,train,20,5,1.0,0.05,20.0
+FD002,W30_step1,10,sensors,low,train,3,5,18.0,0.9,3.0
+FD002,W30_step1,10,sensors,low,train,4,5,17.0,0.85,4.0
+FD002,W30_step1,10,sensors,low,train,5,5,16.0,0.8,5.0
+FD002,W30_step1,10,sensors,low,train,6,5,15.0,0.75,6.0
+FD002,W30_step1,10,sensors,low,train,7,5,14.0,0.7,7.0
+FD002,W30_step1,10,sensors,low,train,8,5,13.0,0.65,8.0
+FD002,W30_step1,10,sensors,low,train,9,5,12.0,0.6,9.0
+FD002,W30_step1,10,windows,low,train,1,5,28.0,0.9655172413793103,2.0
+FD002,W30_step1,10,windows,low,train,10,5,20.0,0.6896551724137931,10.0
+FD002,W30_step1,10,windows,low,train,11,5,19.0,0.6551724137931034,11.0
+FD002,W30_step1,10,windows,low,train,12,5,18.0,0.6206896551724138,12.0
+FD002,W30_step1,10,windows,low,train,13,5,17.0,0.5862068965517241,13.0
+FD002,W30_step1,10,windows,low,train,14,5,16.0,0.5517241379310345,14.0
+FD002,W30_step1,10,windows,low,train,15,5,15.0,0.5172413793103449,15.0
+FD002,W30_step1,10,windows,low,train,16,5,14.0,0.48275862068965514,16.0
+FD002,W30_step1,10,windows,low,train,17,5,13.0,0.44827586206896547,17.0
+FD002,W30_step1,10,windows,low,train,18,5,12.0,0.4137931034482759,18.0
+FD002,W30_step1,10,windows,low,train,19,5,11.0,0.3793103448275862,19.0
+FD002,W30_step1,10,windows,low,train,2,5,29.0,1.0,1.0
+FD002,W30_step1,10,windows,low,train,20,5,10.0,0.3448275862068966,20.0
+FD002,W30_step1,10,windows,low,train,21,5,9.0,0.3103448275862069,21.0
+FD002,W30_step1,10,windows,low,train,22,5,8.0,0.27586206896551724,22.0
+FD002,W30_step1,10,windows,low,train,23,5,7.0,0.24137931034482757,23.0
+FD002,W30_step1,10,windows,low,train,24,5,6.0,0.20689655172413796,24.0
+FD002,W30_step1,10,windows,low,train,25,5,5.0,0.1724137931034483,25.0
+FD002,W30_step1,10,windows,low,train,26,5,4.0,0.13793103448275862,26.0
+FD002,W30_step1,10,windows,low,train,27,5,3.0,0.10344827586206898,27.0
+FD002,W30_step1,10,windows,low,train,28,5,2.0,0.06896551724137931,28.0
+FD002,W30_step1,10,windows,low,train,29,5,1.0,0.034482758620689655,29.0
+FD002,W30_step1,10,windows,low,train,3,5,27.0,0.9310344827586207,3.0
+FD002,W30_step1,10,windows,low,train,4,5,26.0,0.8965517241379309,4.0
+FD002,W30_step1,10,windows,low,train,5,5,25.0,0.8620689655172413,5.0
+FD002,W30_step1,10,windows,low,train,6,5,24.0,0.8275862068965518,6.0
+FD002,W30_step1,10,windows,low,train,7,5,23.0,0.7931034482758621,7.0
+FD002,W30_step1,10,windows,low,train,8,5,22.0,0.7586206896551724,8.0
+FD002,W30_step1,10,windows,low,train,9,5,21.0,0.7241379310344828,9.0
+FD002,W30_step1,10 10,sensors,low,train,1,5,19.0,0.95,2.0
+FD002,W30_step1,10 10,sensors,low,train,10,5,11.0,0.55,10.0
+FD002,W30_step1,10 10,sensors,low,train,11,5,10.0,0.5,11.0
+FD002,W30_step1,10 10,sensors,low,train,12,5,9.0,0.45,12.0
+FD002,W30_step1,10 10,sensors,low,train,13,5,8.0,0.4,13.0
+FD002,W30_step1,10 10,sensors,low,train,14,5,7.0,0.35,14.0
+FD002,W30_step1,10 10,sensors,low,train,15,5,6.0,0.3,15.0
+FD002,W30_step1,10 10,sensors,low,train,16,5,5.0,0.25,16.0
+FD002,W30_step1,10 10,sensors,low,train,17,5,4.0,0.2,17.0
+FD002,W30_step1,10 10,sensors,low,train,18,5,3.0,0.15,18.0
+FD002,W30_step1,10 10,sensors,low,train,19,5,2.0,0.1,19.0
+FD002,W30_step1,10 10,sensors,low,train,2,5,20.0,1.0,1.0
+FD002,W30_step1,10 10,sensors,low,train,20,5,1.0,0.05,20.0
+FD002,W30_step1,10 10,sensors,low,train,3,5,18.0,0.9,3.0
+FD002,W30_step1,10 10,sensors,low,train,4,5,17.0,0.85,4.0
+FD002,W30_step1,10 10,sensors,low,train,5,5,16.0,0.8,5.0
+FD002,W30_step1,10 10,sensors,low,train,6,5,15.0,0.75,6.0
+FD002,W30_step1,10 10,sensors,low,train,7,5,14.0,0.7,7.0
+FD002,W30_step1,10 10,sensors,low,train,8,5,13.0,0.65,8.0
+FD002,W30_step1,10 10,sensors,low,train,9,5,12.0,0.6,9.0
+FD002,W30_step1,10 10,windows,low,train,1,5,28.0,0.9655172413793103,2.0
+FD002,W30_step1,10 10,windows,low,train,10,5,20.2,0.6965517241379311,9.8
+FD002,W30_step1,10 10,windows,low,train,11,5,18.8,0.6482758620689655,11.2
+FD002,W30_step1,10 10,windows,low,train,12,5,18.4,0.6344827586206896,11.6
+FD002,W30_step1,10 10,windows,low,train,13,5,17.4,0.6,12.6
+FD002,W30_step1,10 10,windows,low,train,14,5,16.0,0.5517241379310345,14.0
+FD002,W30_step1,10 10,windows,low,train,15,5,15.0,0.5172413793103449,15.0
+FD002,W30_step1,10 10,windows,low,train,16,5,14.0,0.48275862068965514,16.0
+FD002,W30_step1,10 10,windows,low,train,17,5,13.0,0.44827586206896547,17.0
+FD002,W30_step1,10 10,windows,low,train,18,5,12.0,0.4137931034482759,18.0
+FD002,W30_step1,10 10,windows,low,train,19,5,11.0,0.3793103448275862,19.0
+FD002,W30_step1,10 10,windows,low,train,2,5,29.0,1.0,1.0
+FD002,W30_step1,10 10,windows,low,train,20,5,10.0,0.3448275862068966,20.0
+FD002,W30_step1,10 10,windows,low,train,21,5,9.0,0.3103448275862069,21.0
+FD002,W30_step1,10 10,windows,low,train,22,5,8.0,0.27586206896551724,22.0
+FD002,W30_step1,10 10,windows,low,train,23,5,7.0,0.24137931034482757,23.0
+FD002,W30_step1,10 10,windows,low,train,24,5,6.0,0.20689655172413796,24.0
+FD002,W30_step1,10 10,windows,low,train,25,5,5.0,0.1724137931034483,25.0
+FD002,W30_step1,10 10,windows,low,train,26,5,4.0,0.13793103448275862,26.0
+FD002,W30_step1,10 10,windows,low,train,27,5,3.0,0.10344827586206898,27.0
+FD002,W30_step1,10 10,windows,low,train,28,5,2.0,0.06896551724137931,28.0
+FD002,W30_step1,10 10,windows,low,train,29,5,1.0,0.034482758620689655,29.0
+FD002,W30_step1,10 10,windows,low,train,3,5,27.0,0.9310344827586207,3.0
+FD002,W30_step1,10 10,windows,low,train,4,5,26.0,0.8965517241379309,4.0
+FD002,W30_step1,10 10,windows,low,train,5,5,25.0,0.8620689655172413,5.0
+FD002,W30_step1,10 10,windows,low,train,6,5,24.0,0.8275862068965518,6.0
+FD002,W30_step1,10 10,windows,low,train,7,5,23.0,0.7931034482758621,7.0
+FD002,W30_step1,10 10,windows,low,train,8,5,21.0,0.7241379310344828,9.0
+FD002,W30_step1,10 10,windows,low,train,9,5,21.2,0.7310344827586206,8.8
+FD002,W30_step1,10 10 10,sensors,low,train,1,5,19.0,0.95,2.0
+FD002,W30_step1,10 10 10,sensors,low,train,10,5,11.4,0.57,9.6
+FD002,W30_step1,10 10 10,sensors,low,train,11,5,10.4,0.52,10.6
+FD002,W30_step1,10 10 10,sensors,low,train,12,5,9.4,0.47000000000000003,11.6
+FD002,W30_step1,10 10 10,sensors,low,train,13,5,8.4,0.42000000000000004,12.6
+FD002,W30_step1,10 10 10,sensors,low,train,14,5,7.0,0.35,14.0
+FD002,W30_step1,10 10 10,sensors,low,train,15,5,6.0,0.3,15.0
+FD002,W30_step1,10 10 10,sensors,low,train,16,5,5.0,0.25,16.0
+FD002,W30_step1,10 10 10,sensors,low,train,17,5,4.0,0.2,17.0
+FD002,W30_step1,10 10 10,sensors,low,train,18,5,3.0,0.15,18.0
+FD002,W30_step1,10 10 10,sensors,low,train,19,5,2.0,0.1,19.0
+FD002,W30_step1,10 10 10,sensors,low,train,2,5,20.0,1.0,1.0
+FD002,W30_step1,10 10 10,sensors,low,train,20,5,1.0,0.05,20.0
+FD002,W30_step1,10 10 10,sensors,low,train,3,5,18.0,0.9,3.0
+FD002,W30_step1,10 10 10,sensors,low,train,4,5,17.0,0.85,4.0
+FD002,W30_step1,10 10 10,sensors,low,train,5,5,16.0,0.8,5.0
+FD002,W30_step1,10 10 10,sensors,low,train,6,5,15.0,0.75,6.0
+FD002,W30_step1,10 10 10,sensors,low,train,7,5,11.6,0.5800000000000001,9.4
+FD002,W30_step1,10 10 10,sensors,low,train,8,5,13.4,0.6699999999999999,7.6
+FD002,W30_step1,10 10 10,sensors,low,train,9,5,12.4,0.62,8.6
+FD002,W30_step1,10 10 10,windows,low,train,1,5,28.0,0.9655172413793103,2.0
+FD002,W30_step1,10 10 10,windows,low,train,10,5,20.2,0.6965517241379311,9.8
+FD002,W30_step1,10 10 10,windows,low,train,11,5,19.2,0.6620689655172413,10.8
+FD002,W30_step1,10 10 10,windows,low,train,12,5,18.2,0.6275862068965516,11.8
+FD002,W30_step1,10 10 10,windows,low,train,13,5,17.2,0.5931034482758621,12.8
+FD002,W30_step1,10 10 10,windows,low,train,14,5,16.2,0.5586206896551724,13.8
+FD002,W30_step1,10 10 10,windows,low,train,15,5,15.0,0.5172413793103449,15.0
+FD002,W30_step1,10 10 10,windows,low,train,16,5,14.0,0.48275862068965514,16.0
+FD002,W30_step1,10 10 10,windows,low,train,17,5,13.0,0.44827586206896547,17.0
+FD002,W30_step1,10 10 10,windows,low,train,18,5,12.0,0.4137931034482759,18.0
+FD002,W30_step1,10 10 10,windows,low,train,19,5,11.0,0.3793103448275862,19.0
+FD002,W30_step1,10 10 10,windows,low,train,2,5,29.0,1.0,1.0
+FD002,W30_step1,10 10 10,windows,low,train,20,5,10.0,0.3448275862068966,20.0
+FD002,W30_step1,10 10 10,windows,low,train,21,5,9.0,0.3103448275862069,21.0
+FD002,W30_step1,10 10 10,windows,low,train,22,5,8.0,0.27586206896551724,22.0
+FD002,W30_step1,10 10 10,windows,low,train,23,5,7.0,0.24137931034482757,23.0
+FD002,W30_step1,10 10 10,windows,low,train,24,5,6.0,0.20689655172413796,24.0
+FD002,W30_step1,10 10 10,windows,low,train,25,5,5.0,0.1724137931034483,25.0
+FD002,W30_step1,10 10 10,windows,low,train,26,5,4.0,0.13793103448275862,26.0
+FD002,W30_step1,10 10 10,windows,low,train,27,5,3.0,0.10344827586206898,27.0
+FD002,W30_step1,10 10 10,windows,low,train,28,5,2.0,0.06896551724137931,28.0
+FD002,W30_step1,10 10 10,windows,low,train,29,5,1.0,0.034482758620689655,29.0
+FD002,W30_step1,10 10 10,windows,low,train,3,5,27.0,0.9310344827586207,3.0
+FD002,W30_step1,10 10 10,windows,low,train,4,5,26.0,0.8965517241379309,4.0
+FD002,W30_step1,10 10 10,windows,low,train,5,5,25.0,0.8620689655172413,5.0
+FD002,W30_step1,10 10 10,windows,low,train,6,5,24.0,0.8275862068965518,6.0
+FD002,W30_step1,10 10 10,windows,low,train,7,5,21.6,0.7448275862068966,8.4
+FD002,W30_step1,10 10 10,windows,low,train,8,5,22.2,0.7655172413793103,7.8
+FD002,W30_step1,10 10 10,windows,low,train,9,5,21.2,0.7310344827586206,8.8
+FD003,W30_step1,10,sensors,low,train,1,5,3.4,0.22666666666666666,12.6
+FD003,W30_step1,10,sensors,low,train,10,5,10.2,0.68,5.8
+FD003,W30_step1,10,sensors,low,train,11,5,4.0,0.26666666666666666,12.0
+FD003,W30_step1,10,sensors,low,train,12,5,8.4,0.56,7.6
+FD003,W30_step1,10,sensors,low,train,13,5,10.4,0.6933333333333334,5.6
+FD003,W30_step1,10,sensors,low,train,14,5,7.8,0.5199999999999999,8.2
+FD003,W30_step1,10,sensors,low,train,15,4,7.25,0.4833333333333333,8.75
+FD003,W30_step1,10,sensors,low,train,16,5,10.8,0.72,5.2
+FD003,W30_step1,10,sensors,low,train,2,5,6.4,0.42666666666666664,9.6
+FD003,W30_step1,10,sensors,low,train,3,5,13.0,0.8666666666666666,3.0
+FD003,W30_step1,10,sensors,low,train,4,2,1.0,0.06666666666666667,15.0
+FD003,W30_step1,10,sensors,low,train,5,5,9.4,0.6266666666666667,6.6
+FD003,W30_step1,10,sensors,low,train,6,4,1.75,0.11666666666666667,14.25
+FD003,W30_step1,10,sensors,low,train,7,5,7.0,0.4666666666666667,9.0
+FD003,W30_step1,10,sensors,low,train,8,5,12.0,0.8,4.0
+FD003,W30_step1,10,sensors,low,train,9,5,9.6,0.64,6.4
+FD003,W30_step1,10,windows,low,train,1,5,18.6,0.6413793103448276,11.4
+FD003,W30_step1,10,windows,low,train,10,5,9.8,0.33793103448275863,20.2
+FD003,W30_step1,10,windows,low,train,11,5,11.2,0.38620689655172413,18.8
+FD003,W30_step1,10,windows,low,train,12,3,9.333333333333334,0.3218390804597701,20.666666666666668
+FD003,W30_step1,10,windows,low,train,13,5,11.2,0.38620689655172413,18.8
+FD003,W30_step1,10,windows,low,train,14,4,6.5,0.22413793103448276,23.5
+FD003,W30_step1,10,windows,low,train,15,5,5.2,0.1793103448275862,24.8
+FD003,W30_step1,10,windows,low,train,16,5,6.2,0.21379310344827585,23.8
+FD003,W30_step1,10,windows,low,train,17,4,6.0,0.20689655172413793,24.0
+FD003,W30_step1,10,windows,low,train,18,5,11.4,0.3931034482758621,18.6
+FD003,W30_step1,10,windows,low,train,19,5,15.2,0.5241379310344827,14.8
+FD003,W30_step1,10,windows,low,train,2,5,13.8,0.47586206896551725,16.2
+FD003,W30_step1,10,windows,low,train,20,4,6.75,0.23275862068965517,23.25
+FD003,W30_step1,10,windows,low,train,21,5,4.6,0.1586206896551724,25.4
+FD003,W30_step1,10,windows,low,train,22,5,17.2,0.5931034482758621,12.8
+FD003,W30_step1,10,windows,low,train,23,5,20.0,0.689655172413793,10.0
+FD003,W30_step1,10,windows,low,train,24,5,18.4,0.6344827586206897,11.6
+FD003,W30_step1,10,windows,low,train,25,5,13.0,0.44827586206896547,17.0
+FD003,W30_step1,10,windows,low,train,26,5,26.2,0.903448275862069,3.8
+FD003,W30_step1,10,windows,low,train,27,5,21.2,0.7310344827586206,8.8
+FD003,W30_step1,10,windows,low,train,28,5,20.6,0.710344827586207,9.4
+FD003,W30_step1,10,windows,low,train,29,5,28.2,0.9724137931034482,1.8
+FD003,W30_step1,10,windows,low,train,3,5,14.4,0.49655172413793114,15.6
+FD003,W30_step1,10,windows,low,train,30,5,22.8,0.7862068965517242,7.2
+FD003,W30_step1,10,windows,low,train,4,5,18.0,0.6206896551724139,12.0
+FD003,W30_step1,10,windows,low,train,5,5,16.0,0.5517241379310345,14.0
+FD003,W30_step1,10,windows,low,train,6,5,22.8,0.7862068965517242,7.2
+FD003,W30_step1,10,windows,low,train,7,5,16.8,0.5793103448275863,13.2
+FD003,W30_step1,10,windows,low,train,8,5,19.0,0.6551724137931034,11.0
+FD003,W30_step1,10,windows,low,train,9,5,12.2,0.4206896551724138,17.8
+FD003,W30_step1,10 10,sensors,low,train,1,5,5.8,0.38666666666666666,10.2
+FD003,W30_step1,10 10,sensors,low,train,10,5,9.6,0.64,6.4
+FD003,W30_step1,10 10,sensors,low,train,11,5,4.4,0.29333333333333333,11.6
+FD003,W30_step1,10 10,sensors,low,train,12,5,3.6,0.24,12.4
+FD003,W30_step1,10 10,sensors,low,train,13,3,13.666666666666666,0.9111111111111111,2.3333333333333335
+FD003,W30_step1,10 10,sensors,low,train,14,4,2.5,0.16666666666666666,13.5
+FD003,W30_step1,10 10,sensors,low,train,15,5,5.8,0.38666666666666666,10.2
+FD003,W30_step1,10 10,sensors,low,train,16,5,10.0,0.6666666666666667,6.0
+FD003,W30_step1,10 10,sensors,low,train,2,5,10.6,0.7066666666666667,5.4
+FD003,W30_step1,10 10,sensors,low,train,3,5,10.8,0.72,5.2
+FD003,W30_step1,10 10,sensors,low,train,4,5,7.6,0.5066666666666666,8.4
+FD003,W30_step1,10 10,sensors,low,train,5,5,9.2,0.6133333333333333,6.8
+FD003,W30_step1,10 10,sensors,low,train,6,3,1.0,0.06666666666666667,15.0
+FD003,W30_step1,10 10,sensors,low,train,7,5,10.6,0.7066666666666667,5.4
+FD003,W30_step1,10 10,sensors,low,train,8,5,9.2,0.6133333333333333,6.8
+FD003,W30_step1,10 10,sensors,low,train,9,5,12.0,0.8,4.0
+FD003,W30_step1,10 10,windows,low,train,1,4,20.0,0.6896551724137931,10.0
+FD003,W30_step1,10 10,windows,low,train,10,4,15.25,0.5258620689655172,14.75
+FD003,W30_step1,10 10,windows,low,train,11,5,9.0,0.3103448275862069,21.0
+FD003,W30_step1,10 10,windows,low,train,12,5,9.2,0.31724137931034485,20.8
+FD003,W30_step1,10 10,windows,low,train,13,5,5.4,0.18620689655172415,24.6
+FD003,W30_step1,10 10,windows,low,train,14,4,7.75,0.26724137931034486,22.25
+FD003,W30_step1,10 10,windows,low,train,15,5,6.0,0.20689655172413796,24.0
+FD003,W30_step1,10 10,windows,low,train,16,4,6.0,0.20689655172413796,24.0
+FD003,W30_step1,10 10,windows,low,train,17,5,8.8,0.303448275862069,21.2
+FD003,W30_step1,10 10,windows,low,train,18,4,14.25,0.4913793103448276,15.75
+FD003,W30_step1,10 10,windows,low,train,19,5,15.0,0.5172413793103449,15.0
+FD003,W30_step1,10 10,windows,low,train,2,5,14.2,0.48965517241379314,15.8
+FD003,W30_step1,10 10,windows,low,train,20,5,14.2,0.48965517241379314,15.8
+FD003,W30_step1,10 10,windows,low,train,21,5,19.6,0.6758620689655173,10.4
+FD003,W30_step1,10 10,windows,low,train,22,5,19.0,0.6551724137931034,11.0
+FD003,W30_step1,10 10,windows,low,train,23,5,17.0,0.5862068965517242,13.0
+FD003,W30_step1,10 10,windows,low,train,24,5,21.0,0.7241379310344827,9.0
+FD003,W30_step1,10 10,windows,low,train,25,5,19.6,0.6758620689655171,10.4
+FD003,W30_step1,10 10,windows,low,train,26,5,20.2,0.6965517241379311,9.8
+FD003,W30_step1,10 10,windows,low,train,27,5,18.2,0.6275862068965516,11.8
+FD003,W30_step1,10 10,windows,low,train,28,5,22.2,0.7655172413793103,7.8
+FD003,W30_step1,10 10,windows,low,train,29,5,23.0,0.7931034482758621,7.0
+FD003,W30_step1,10 10,windows,low,train,3,5,21.8,0.7517241379310345,8.2
+FD003,W30_step1,10 10,windows,low,train,30,5,22.8,0.7862068965517242,7.2
+FD003,W30_step1,10 10,windows,low,train,4,5,18.4,0.6344827586206897,11.6
+FD003,W30_step1,10 10,windows,low,train,5,5,15.0,0.5172413793103449,15.0
+FD003,W30_step1,10 10,windows,low,train,6,5,18.8,0.6482758620689656,11.2
+FD003,W30_step1,10 10,windows,low,train,7,5,9.4,0.3241379310344828,20.6
+FD003,W30_step1,10 10,windows,low,train,8,5,9.2,0.31724137931034485,20.8
+FD003,W30_step1,10 10,windows,low,train,9,5,7.4,0.25517241379310346,22.6
+FD003,W30_step1,10 10 10,sensors,low,train,1,5,13.0,0.8666666666666666,3.0
+FD003,W30_step1,10 10 10,sensors,low,train,10,5,7.8,0.5199999999999999,8.2
+FD003,W30_step1,10 10 10,sensors,low,train,11,5,1.8,0.12000000000000002,14.2
+FD003,W30_step1,10 10 10,sensors,low,train,12,5,3.0,0.2,13.0
+FD003,W30_step1,10 10 10,sensors,low,train,13,5,13.2,0.8800000000000001,2.8
+FD003,W30_step1,10 10 10,sensors,low,train,14,5,5.0,0.3333333333333333,11.0
+FD003,W30_step1,10 10 10,sensors,low,train,15,5,13.0,0.8666666666666666,3.0
+FD003,W30_step1,10 10 10,sensors,low,train,16,4,6.5,0.43333333333333335,9.5
+FD003,W30_step1,10 10 10,sensors,low,train,2,5,7.8,0.52,8.2
+FD003,W30_step1,10 10 10,sensors,low,train,3,5,5.2,0.3466666666666667,10.8
+FD003,W30_step1,10 10 10,sensors,low,train,4,5,8.8,0.5866666666666667,7.2
+FD003,W30_step1,10 10 10,sensors,low,train,5,5,8.4,0.5599999999999999,7.6
+FD003,W30_step1,10 10 10,sensors,low,train,6,1,1.0,0.06666666666666667,15.0
+FD003,W30_step1,10 10 10,sensors,low,train,7,5,7.8,0.52,8.2
+FD003,W30_step1,10 10 10,sensors,low,train,8,5,9.2,0.6133333333333333,6.8
+FD003,W30_step1,10 10 10,sensors,low,train,9,5,10.6,0.7066666666666667,5.4
+FD003,W30_step1,10 10 10,windows,low,train,1,5,12.8,0.4413793103448276,17.2
+FD003,W30_step1,10 10 10,windows,low,train,10,5,19.2,0.6620689655172414,10.8
+FD003,W30_step1,10 10 10,windows,low,train,11,5,16.4,0.5655172413793104,13.6
+FD003,W30_step1,10 10 10,windows,low,train,12,5,9.6,0.33103448275862074,20.4
+FD003,W30_step1,10 10 10,windows,low,train,13,5,10.0,0.3448275862068965,20.0
+FD003,W30_step1,10 10 10,windows,low,train,14,5,4.0,0.13793103448275862,26.0
+FD003,W30_step1,10 10 10,windows,low,train,15,4,3.75,0.12931034482758622,26.25
+FD003,W30_step1,10 10 10,windows,low,train,16,4,8.0,0.27586206896551724,22.0
+FD003,W30_step1,10 10 10,windows,low,train,17,4,6.0,0.20689655172413793,24.0
+FD003,W30_step1,10 10 10,windows,low,train,18,5,6.0,0.20689655172413796,24.0
+FD003,W30_step1,10 10 10,windows,low,train,19,5,11.8,0.4068965517241379,18.2
+FD003,W30_step1,10 10 10,windows,low,train,2,5,24.2,0.8344827586206897,5.8
+FD003,W30_step1,10 10 10,windows,low,train,20,5,18.0,0.6206896551724139,12.0
+FD003,W30_step1,10 10 10,windows,low,train,21,5,16.0,0.5517241379310345,14.0
+FD003,W30_step1,10 10 10,windows,low,train,22,5,22.8,0.7862068965517242,7.2
+FD003,W30_step1,10 10 10,windows,low,train,23,5,15.0,0.5172413793103449,15.0
+FD003,W30_step1,10 10 10,windows,low,train,24,5,25.6,0.8827586206896552,4.4
+FD003,W30_step1,10 10 10,windows,low,train,25,5,24.0,0.8275862068965516,6.0
+FD003,W30_step1,10 10 10,windows,low,train,26,5,22.2,0.7655172413793103,7.8
+FD003,W30_step1,10 10 10,windows,low,train,27,5,22.2,0.7655172413793103,7.8
+FD003,W30_step1,10 10 10,windows,low,train,28,5,17.2,0.5931034482758621,12.8
+FD003,W30_step1,10 10 10,windows,low,train,29,5,8.8,0.30344827586206896,21.2
+FD003,W30_step1,10 10 10,windows,low,train,3,5,14.8,0.5103448275862068,15.2
+FD003,W30_step1,10 10 10,windows,low,train,30,3,3.0,0.10344827586206896,27.0
+FD003,W30_step1,10 10 10,windows,low,train,4,5,19.2,0.6620689655172414,10.8
+FD003,W30_step1,10 10 10,windows,low,train,5,5,17.8,0.6137931034482759,12.2
+FD003,W30_step1,10 10 10,windows,low,train,6,5,18.6,0.6413793103448276,11.4
+FD003,W30_step1,10 10 10,windows,low,train,7,5,13.0,0.4482758620689656,17.0
+FD003,W30_step1,10 10 10,windows,low,train,8,5,14.2,0.4896551724137931,15.8
+FD003,W30_step1,10 10 10,windows,low,train,9,5,15.6,0.5379310344827587,14.4
+FD004,W30_step1,10,sensors,low,train,1,5,19.0,0.95,2.0
+FD004,W30_step1,10,sensors,low,train,10,5,11.0,0.55,10.0
+FD004,W30_step1,10,sensors,low,train,11,5,10.0,0.5,11.0
+FD004,W30_step1,10,sensors,low,train,12,5,9.0,0.45,12.0
+FD004,W30_step1,10,sensors,low,train,13,5,8.0,0.4,13.0
+FD004,W30_step1,10,sensors,low,train,14,5,7.0,0.35,14.0
+FD004,W30_step1,10,sensors,low,train,15,5,6.0,0.3,15.0
+FD004,W30_step1,10,sensors,low,train,16,5,5.0,0.25,16.0
+FD004,W30_step1,10,sensors,low,train,17,5,4.0,0.2,17.0
+FD004,W30_step1,10,sensors,low,train,18,5,3.0,0.15,18.0
+FD004,W30_step1,10,sensors,low,train,19,5,2.0,0.1,19.0
+FD004,W30_step1,10,sensors,low,train,2,5,20.0,1.0,1.0
+FD004,W30_step1,10,sensors,low,train,20,5,1.0,0.05,20.0
+FD004,W30_step1,10,sensors,low,train,3,5,18.0,0.9,3.0
+FD004,W30_step1,10,sensors,low,train,4,5,17.0,0.85,4.0
+FD004,W30_step1,10,sensors,low,train,5,5,16.0,0.8,5.0
+FD004,W30_step1,10,sensors,low,train,6,5,15.0,0.75,6.0
+FD004,W30_step1,10,sensors,low,train,7,5,14.0,0.7,7.0
+FD004,W30_step1,10,sensors,low,train,8,5,13.0,0.65,8.0
+FD004,W30_step1,10,sensors,low,train,9,5,12.0,0.6,9.0
+FD004,W30_step1,10,windows,low,train,1,5,28.0,0.9655172413793103,2.0
+FD004,W30_step1,10,windows,low,train,10,5,20.0,0.6896551724137931,10.0
+FD004,W30_step1,10,windows,low,train,11,5,19.0,0.6551724137931034,11.0
+FD004,W30_step1,10,windows,low,train,12,5,18.0,0.6206896551724138,12.0
+FD004,W30_step1,10,windows,low,train,13,5,17.0,0.5862068965517241,13.0
+FD004,W30_step1,10,windows,low,train,14,5,16.0,0.5517241379310345,14.0
+FD004,W30_step1,10,windows,low,train,15,5,15.0,0.5172413793103449,15.0
+FD004,W30_step1,10,windows,low,train,16,5,14.0,0.48275862068965514,16.0
+FD004,W30_step1,10,windows,low,train,17,5,13.0,0.44827586206896547,17.0
+FD004,W30_step1,10,windows,low,train,18,5,12.0,0.4137931034482759,18.0
+FD004,W30_step1,10,windows,low,train,19,5,11.0,0.3793103448275862,19.0
+FD004,W30_step1,10,windows,low,train,2,5,29.0,1.0,1.0
+FD004,W30_step1,10,windows,low,train,20,5,10.0,0.3448275862068966,20.0
+FD004,W30_step1,10,windows,low,train,21,5,9.0,0.3103448275862069,21.0
+FD004,W30_step1,10,windows,low,train,22,5,8.0,0.27586206896551724,22.0
+FD004,W30_step1,10,windows,low,train,23,5,7.0,0.24137931034482757,23.0
+FD004,W30_step1,10,windows,low,train,24,5,6.0,0.20689655172413796,24.0
+FD004,W30_step1,10,windows,low,train,25,5,5.0,0.1724137931034483,25.0
+FD004,W30_step1,10,windows,low,train,26,5,4.0,0.13793103448275862,26.0
+FD004,W30_step1,10,windows,low,train,27,5,3.0,0.10344827586206898,27.0
+FD004,W30_step1,10,windows,low,train,28,5,2.0,0.06896551724137931,28.0
+FD004,W30_step1,10,windows,low,train,29,5,1.0,0.034482758620689655,29.0
+FD004,W30_step1,10,windows,low,train,3,5,27.0,0.9310344827586207,3.0
+FD004,W30_step1,10,windows,low,train,4,5,26.0,0.8965517241379309,4.0
+FD004,W30_step1,10,windows,low,train,5,5,25.0,0.8620689655172413,5.0
+FD004,W30_step1,10,windows,low,train,6,5,24.0,0.8275862068965518,6.0
+FD004,W30_step1,10,windows,low,train,7,5,23.0,0.7931034482758621,7.0
+FD004,W30_step1,10,windows,low,train,8,5,22.0,0.7586206896551724,8.0
+FD004,W30_step1,10,windows,low,train,9,5,21.0,0.7241379310344828,9.0
+FD004,W30_step1,10 10,sensors,low,train,1,5,19.0,0.95,2.0
+FD004,W30_step1,10 10,sensors,low,train,10,5,11.0,0.55,10.0
+FD004,W30_step1,10 10,sensors,low,train,11,5,10.0,0.5,11.0
+FD004,W30_step1,10 10,sensors,low,train,12,5,9.0,0.45,12.0
+FD004,W30_step1,10 10,sensors,low,train,13,5,8.0,0.4,13.0
+FD004,W30_step1,10 10,sensors,low,train,14,5,7.0,0.35,14.0
+FD004,W30_step1,10 10,sensors,low,train,15,5,6.0,0.3,15.0
+FD004,W30_step1,10 10,sensors,low,train,16,5,5.0,0.25,16.0
+FD004,W30_step1,10 10,sensors,low,train,17,5,4.0,0.2,17.0
+FD004,W30_step1,10 10,sensors,low,train,18,5,3.0,0.15,18.0
+FD004,W30_step1,10 10,sensors,low,train,19,5,2.0,0.1,19.0
+FD004,W30_step1,10 10,sensors,low,train,2,5,20.0,1.0,1.0
+FD004,W30_step1,10 10,sensors,low,train,20,5,1.0,0.05,20.0
+FD004,W30_step1,10 10,sensors,low,train,3,5,18.0,0.9,3.0
+FD004,W30_step1,10 10,sensors,low,train,4,5,17.0,0.85,4.0
+FD004,W30_step1,10 10,sensors,low,train,5,5,16.0,0.8,5.0
+FD004,W30_step1,10 10,sensors,low,train,6,5,15.0,0.75,6.0
+FD004,W30_step1,10 10,sensors,low,train,7,5,14.0,0.7,7.0
+FD004,W30_step1,10 10,sensors,low,train,8,5,13.0,0.65,8.0
+FD004,W30_step1,10 10,sensors,low,train,9,5,12.0,0.6,9.0
+FD004,W30_step1,10 10,windows,low,train,1,5,28.0,0.9655172413793103,2.0
+FD004,W30_step1,10 10,windows,low,train,10,5,20.0,0.6896551724137931,10.0
+FD004,W30_step1,10 10,windows,low,train,11,5,19.0,0.6551724137931034,11.0
+FD004,W30_step1,10 10,windows,low,train,12,5,18.0,0.6206896551724138,12.0
+FD004,W30_step1,10 10,windows,low,train,13,5,17.0,0.5862068965517241,13.0
+FD004,W30_step1,10 10,windows,low,train,14,5,16.0,0.5517241379310345,14.0
+FD004,W30_step1,10 10,windows,low,train,15,5,15.0,0.5172413793103449,15.0
+FD004,W30_step1,10 10,windows,low,train,16,5,14.0,0.48275862068965514,16.0
+FD004,W30_step1,10 10,windows,low,train,17,5,13.0,0.44827586206896547,17.0
+FD004,W30_step1,10 10,windows,low,train,18,5,12.0,0.4137931034482759,18.0
+FD004,W30_step1,10 10,windows,low,train,19,5,11.0,0.3793103448275862,19.0
+FD004,W30_step1,10 10,windows,low,train,2,5,29.0,1.0,1.0
+FD004,W30_step1,10 10,windows,low,train,20,5,10.0,0.3448275862068966,20.0
+FD004,W30_step1,10 10,windows,low,train,21,5,9.0,0.3103448275862069,21.0
+FD004,W30_step1,10 10,windows,low,train,22,5,8.0,0.27586206896551724,22.0
+FD004,W30_step1,10 10,windows,low,train,23,5,7.0,0.24137931034482757,23.0
+FD004,W30_step1,10 10,windows,low,train,24,5,6.0,0.20689655172413796,24.0
+FD004,W30_step1,10 10,windows,low,train,25,5,5.0,0.1724137931034483,25.0
+FD004,W30_step1,10 10,windows,low,train,26,5,4.0,0.13793103448275862,26.0
+FD004,W30_step1,10 10,windows,low,train,27,5,3.0,0.10344827586206898,27.0
+FD004,W30_step1,10 10,windows,low,train,28,5,2.0,0.06896551724137931,28.0
+FD004,W30_step1,10 10,windows,low,train,29,5,1.0,0.034482758620689655,29.0
+FD004,W30_step1,10 10,windows,low,train,3,5,27.0,0.9310344827586207,3.0
+FD004,W30_step1,10 10,windows,low,train,4,5,26.0,0.8965517241379309,4.0
+FD004,W30_step1,10 10,windows,low,train,5,5,25.0,0.8620689655172413,5.0
+FD004,W30_step1,10 10,windows,low,train,6,5,24.0,0.8275862068965518,6.0
+FD004,W30_step1,10 10,windows,low,train,7,5,23.0,0.7931034482758621,7.0
+FD004,W30_step1,10 10,windows,low,train,8,5,22.0,0.7586206896551724,8.0
+FD004,W30_step1,10 10,windows,low,train,9,5,21.0,0.7241379310344828,9.0
+FD004,W30_step1,10 10 10,sensors,low,train,1,5,9.8,0.49000000000000005,11.2
+FD004,W30_step1,10 10 10,sensors,low,train,10,5,18.0,0.9,3.0
+FD004,W30_step1,10 10 10,sensors,low,train,11,5,13.2,0.6599999999999999,7.8
+FD004,W30_step1,10 10 10,sensors,low,train,12,3,4.0,0.20000000000000004,17.0
+FD004,W30_step1,10 10 10,sensors,low,train,13,5,12.2,0.6100000000000001,8.8
+FD004,W30_step1,10 10 10,sensors,low,train,14,5,15.0,0.75,6.0
+FD004,W30_step1,10 10 10,sensors,low,train,15,5,17.0,0.85,4.0
+FD004,W30_step1,10 10 10,sensors,low,train,16,5,14.0,0.7000000000000001,7.0
+FD004,W30_step1,10 10 10,sensors,low,train,17,5,15.2,0.76,5.8
+FD004,W30_step1,10 10 10,sensors,low,train,18,5,13.4,0.6699999999999999,7.6
+FD004,W30_step1,10 10 10,sensors,low,train,19,5,11.2,0.56,9.8
+FD004,W30_step1,10 10 10,sensors,low,train,2,5,6.8,0.34,14.2
+FD004,W30_step1,10 10 10,sensors,low,train,20,5,6.0,0.3,15.0
+FD004,W30_step1,10 10 10,sensors,low,train,21,5,3.6,0.18,17.4
+FD004,W30_step1,10 10 10,sensors,low,train,3,5,8.0,0.4,13.0
+FD004,W30_step1,10 10 10,sensors,low,train,4,5,14.0,0.7,7.0
+FD004,W30_step1,10 10 10,sensors,low,train,5,5,5.2,0.25999999999999995,15.8
+FD004,W30_step1,10 10 10,sensors,low,train,6,5,6.8,0.33999999999999997,14.2
+FD004,W30_step1,10 10 10,sensors,low,train,7,4,2.5,0.125,18.5
+FD004,W30_step1,10 10 10,sensors,low,train,8,5,14.0,0.7,7.0
+FD004,W30_step1,10 10 10,sensors,low,train,9,3,3.6666666666666665,0.18333333333333335,17.333333333333332
+FD004,W30_step1,10 10 10,windows,low,train,1,5,15.2,0.5241379310344827,14.8
+FD004,W30_step1,10 10 10,windows,low,train,10,5,11.0,0.3793103448275862,19.0
+FD004,W30_step1,10 10 10,windows,low,train,11,5,13.2,0.45517241379310347,16.8
+FD004,W30_step1,10 10 10,windows,low,train,12,5,13.2,0.45517241379310336,16.8
+FD004,W30_step1,10 10 10,windows,low,train,13,5,20.2,0.696551724137931,9.8
+FD004,W30_step1,10 10 10,windows,low,train,14,5,13.8,0.47586206896551725,16.2
+FD004,W30_step1,10 10 10,windows,low,train,15,5,16.0,0.5517241379310345,14.0
+FD004,W30_step1,10 10 10,windows,low,train,16,5,21.0,0.7241379310344828,9.0
+FD004,W30_step1,10 10 10,windows,low,train,17,5,15.4,0.5310344827586206,14.6
+FD004,W30_step1,10 10 10,windows,low,train,18,5,19.4,0.6689655172413793,10.6
+FD004,W30_step1,10 10 10,windows,low,train,19,5,14.8,0.5103448275862068,15.2
+FD004,W30_step1,10 10 10,windows,low,train,2,3,10.0,0.3448275862068966,20.0
+FD004,W30_step1,10 10 10,windows,low,train,20,5,18.6,0.6413793103448275,11.4
+FD004,W30_step1,10 10 10,windows,low,train,21,5,21.0,0.7241379310344828,9.0
+FD004,W30_step1,10 10 10,windows,low,train,22,5,13.6,0.46896551724137936,16.4
+FD004,W30_step1,10 10 10,windows,low,train,23,5,14.4,0.496551724137931,15.6
+FD004,W30_step1,10 10 10,windows,low,train,24,5,11.6,0.39999999999999997,18.4
+FD004,W30_step1,10 10 10,windows,low,train,25,5,15.2,0.5241379310344827,14.8
+FD004,W30_step1,10 10 10,windows,low,train,26,5,19.2,0.6620689655172414,10.8
+FD004,W30_step1,10 10 10,windows,low,train,27,5,12.8,0.4413793103448277,17.2
+FD004,W30_step1,10 10 10,windows,low,train,28,5,17.2,0.5931034482758621,12.8
+FD004,W30_step1,10 10 10,windows,low,train,29,5,16.4,0.5655172413793104,13.6
+FD004,W30_step1,10 10 10,windows,low,train,3,4,8.25,0.28448275862068967,21.75
+FD004,W30_step1,10 10 10,windows,low,train,30,5,12.2,0.4206896551724137,17.8
+FD004,W30_step1,10 10 10,windows,low,train,4,4,18.0,0.6206896551724138,12.0
+FD004,W30_step1,10 10 10,windows,low,train,5,5,6.6,0.22758620689655173,23.4
+FD004,W30_step1,10 10 10,windows,low,train,6,5,8.8,0.30344827586206896,21.2
+FD004,W30_step1,10 10 10,windows,low,train,7,5,21.6,0.7448275862068965,8.4
+FD004,W30_step1,10 10 10,windows,low,train,8,4,14.0,0.48275862068965514,16.0
+FD004,W30_step1,10 10 10,windows,low,train,9,5,14.4,0.496551724137931,15.6

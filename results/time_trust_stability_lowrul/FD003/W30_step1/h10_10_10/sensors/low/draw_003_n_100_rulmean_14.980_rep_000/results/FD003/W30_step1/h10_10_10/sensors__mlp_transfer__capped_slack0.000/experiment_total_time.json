@@ -1,0 +1,161 @@
+{
+  "total_time_s": 542.6683632931243,
+  "mlp_train_time_s": 54.29736329312436,
+  "milp1_solve_time_s": 22.753,
+  "milp2_solve_time_s": 465.61799999999994,
+  "per_iteration": [
+    {
+      "iter_idx": 0,
+      "n0_value": 16,
+      "mlp_train_time_s": 0.0,
+      "milp1_solve_time_s": 0.0,
+      "milp2_solve_time_s": 0.0,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 1,
+      "n0_value": 15,
+      "mlp_train_time_s": 0.0,
+      "milp1_solve_time_s": 2.295,
+      "milp2_solve_time_s": 60.824,
+      "is_final_mlp": false,
+      "is_baseline": true
+    },
+    {
+      "iter_idx": 2,
+      "n0_value": 14,
+      "mlp_train_time_s": 3.4637804760131985,
+      "milp1_solve_time_s": 1.739,
+      "milp2_solve_time_s": 25.064,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 3,
+      "n0_value": 13,
+      "mlp_train_time_s": 3.533188721165061,
+      "milp1_solve_time_s": 1.898,
+      "milp2_solve_time_s": 21.5,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 4,
+      "n0_value": 12,
+      "mlp_train_time_s": 4.125457671005279,
+      "milp1_solve_time_s": 2.417,
+      "milp2_solve_time_s": 36.332,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 5,
+      "n0_value": 11,
+      "mlp_train_time_s": 3.487277255859226,
+      "milp1_solve_time_s": 1.145,
+      "milp2_solve_time_s": 18.41,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 6,
+      "n0_value": 10,
+      "mlp_train_time_s": 3.5449799669440836,
+      "milp1_solve_time_s": 1.383,
+      "milp2_solve_time_s": 42.849,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 7,
+      "n0_value": 9,
+      "mlp_train_time_s": 4.0764378539752215,
+      "milp1_solve_time_s": 1.473,
+      "milp2_solve_time_s": 26.634,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 8,
+      "n0_value": 8,
+      "mlp_train_time_s": 3.569563740165904,
+      "milp1_solve_time_s": 1.721,
+      "milp2_solve_time_s": 28.885,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 9,
+      "n0_value": 7,
+      "mlp_train_time_s": 3.486119013046846,
+      "milp1_solve_time_s": 1.329,
+      "milp2_solve_time_s": 13.102,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 10,
+      "n0_value": 6,
+      "mlp_train_time_s": 3.6427173840347677,
+      "milp1_solve_time_s": 1.412,
+      "milp2_solve_time_s": 14.854,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 11,
+      "n0_value": 5,
+      "mlp_train_time_s": 3.4883921209257096,
+      "milp1_solve_time_s": 1.166,
+      "milp2_solve_time_s": 13.029,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 12,
+      "n0_value": 4,
+      "mlp_train_time_s": 3.4247953528538346,
+      "milp1_solve_time_s": 1.625,
+      "milp2_solve_time_s": 20.458,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 13,
+      "n0_value": 3,
+      "mlp_train_time_s": 4.063080680090934,
+      "milp1_solve_time_s": 2.101,
+      "milp2_solve_time_s": 43.344,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 14,
+      "n0_value": 2,
+      "mlp_train_time_s": 3.4387741659302264,
+      "milp1_solve_time_s": 0.958,
+      "milp2_solve_time_s": 49.732,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 15,
+      "n0_value": 1,
+      "mlp_train_time_s": 3.461557387141511,
+      "milp1_solve_time_s": 0.091,
+      "milp2_solve_time_s": 50.601,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 16,
+      "n0_value": 0,
+      "mlp_train_time_s": 3.49124150397256,
+      "milp1_solve_time_s": 0.0,
+      "milp2_solve_time_s": 0.0,
+      "is_final_mlp": true,
+      "is_baseline": false
+    }
+  ]
+}

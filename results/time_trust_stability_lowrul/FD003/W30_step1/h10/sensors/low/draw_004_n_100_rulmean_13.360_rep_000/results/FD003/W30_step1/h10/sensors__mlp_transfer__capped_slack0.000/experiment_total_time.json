@@ -1,0 +1,161 @@
+{
+  "total_time_s": 90.14402515021152,
+  "mlp_train_time_s": 51.75902515021153,
+  "milp1_solve_time_s": 2.3270000000000004,
+  "milp2_solve_time_s": 36.058,
+  "per_iteration": [
+    {
+      "iter_idx": 0,
+      "n0_value": 16,
+      "mlp_train_time_s": 0.0,
+      "milp1_solve_time_s": 0.0,
+      "milp2_solve_time_s": 0.0,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 1,
+      "n0_value": 15,
+      "mlp_train_time_s": 0.0,
+      "milp1_solve_time_s": 0.272,
+      "milp2_solve_time_s": 2.927,
+      "is_final_mlp": false,
+      "is_baseline": true
+    },
+    {
+      "iter_idx": 2,
+      "n0_value": 14,
+      "mlp_train_time_s": 3.4679396939463913,
+      "milp1_solve_time_s": 0.227,
+      "milp2_solve_time_s": 3.193,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 3,
+      "n0_value": 13,
+      "mlp_train_time_s": 3.4357072359416634,
+      "milp1_solve_time_s": 0.196,
+      "milp2_solve_time_s": 2.489,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 4,
+      "n0_value": 12,
+      "mlp_train_time_s": 3.4607710808049887,
+      "milp1_solve_time_s": 0.235,
+      "milp2_solve_time_s": 3.136,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 5,
+      "n0_value": 11,
+      "mlp_train_time_s": 3.418573592090979,
+      "milp1_solve_time_s": 0.189,
+      "milp2_solve_time_s": 3.953,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 6,
+      "n0_value": 10,
+      "mlp_train_time_s": 3.472417173208669,
+      "milp1_solve_time_s": 0.135,
+      "milp2_solve_time_s": 2.764,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 7,
+      "n0_value": 9,
+      "mlp_train_time_s": 3.406011010054499,
+      "milp1_solve_time_s": 0.151,
+      "milp2_solve_time_s": 2.849,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 8,
+      "n0_value": 8,
+      "mlp_train_time_s": 3.4513234668411314,
+      "milp1_solve_time_s": 0.175,
+      "milp2_solve_time_s": 2.997,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 9,
+      "n0_value": 7,
+      "mlp_train_time_s": 3.5725654379930347,
+      "milp1_solve_time_s": 0.173,
+      "milp2_solve_time_s": 2.942,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 10,
+      "n0_value": 6,
+      "mlp_train_time_s": 3.401728728087619,
+      "milp1_solve_time_s": 0.141,
+      "milp2_solve_time_s": 2.25,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 11,
+      "n0_value": 5,
+      "mlp_train_time_s": 3.426840741187334,
+      "milp1_solve_time_s": 0.137,
+      "milp2_solve_time_s": 1.506,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 12,
+      "n0_value": 4,
+      "mlp_train_time_s": 3.424442413961515,
+      "milp1_solve_time_s": 0.11,
+      "milp2_solve_time_s": 1.371,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 13,
+      "n0_value": 3,
+      "mlp_train_time_s": 3.505109630059451,
+      "milp1_solve_time_s": 0.104,
+      "milp2_solve_time_s": 1.174,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 14,
+      "n0_value": 2,
+      "mlp_train_time_s": 3.458219966152683,
+      "milp1_solve_time_s": 0.059,
+      "milp2_solve_time_s": 0.992,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 15,
+      "n0_value": 1,
+      "mlp_train_time_s": 3.456410052953288,
+      "milp1_solve_time_s": 0.023,
+      "milp2_solve_time_s": 1.515,
+      "is_final_mlp": false,
+      "is_baseline": false
+    },
+    {
+      "iter_idx": 16,
+      "n0_value": 0,
+      "mlp_train_time_s": 3.400964926928282,
+      "milp1_solve_time_s": 0.0,
+      "milp2_solve_time_s": 0.0,
+      "is_final_mlp": true,
+      "is_baseline": false
+    }
+  ]
+}

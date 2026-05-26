@@ -1,0 +1,4 @@
+row_idx,dataset,hidden,mode,bin,draw,success,runtime_seconds,out_dir,selected_groups_json,selection_source,error
+2,FD001,10 10 10,sensors,low,2,True,452.98429061006755,results/time_trust_stability_lowrul/FD001/W30_step1/h10_10_10/sensors/low/draw_002_n_100_rulmean_13.170_rep_000/results/FD001/W30_step1/h10_10_10/sensors__mlp_transfer__capped_slack0.000,"[""12""]",history.14.selected_sensors,
+3,FD001,10 10 10,sensors,low,3,True,492.75627644895576,results/time_trust_stability_lowrul/FD001/W30_step1/h10_10_10/sensors/low/draw_003_n_100_rulmean_14.980_rep_000/results/FD001/W30_step1/h10_10_10/sensors__mlp_transfer__capped_slack0.000,"[""3""]",history.14.selected_sensors,
+8,FD001,10 10 10,windows,low,3,True,887.262180657126,results/time_trust_stability_lowrul/FD001/W30_step1/h10_10_10/windows/low/draw_003_n_100_rulmean_14.980_rep_000/results/FD001/W30_step1/h10_10_10/windows__mlp_transfer__capped_slack0.000,"[""30""]",history.29.selected_windows,

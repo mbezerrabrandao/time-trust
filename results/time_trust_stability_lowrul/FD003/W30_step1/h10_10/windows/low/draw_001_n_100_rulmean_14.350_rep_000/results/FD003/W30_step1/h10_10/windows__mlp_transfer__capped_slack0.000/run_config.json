@@ -1,0 +1,27 @@
+{
+  "run_config": {
+    "dataset_name": "FD003",
+    "window_tag": "W30_step1",
+    "hidden_layers": [
+      10,
+      10
+    ],
+    "mode": "windows",
+    "mlp_mode": "mlp_transfer",
+    "C": 50,
+    "beta": 0.5,
+    "milp_time_cap": 60,
+    "baseline_mode": "capped",
+    "baseline_slack": 0.0,
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "batch_size": 128,
+    "seed": 2026
+  },
+  "run_extra": {
+    "M0": 16,
+    "W0": 30,
+    "baseline_mae_clusters": 7.709689922897971,
+    "baseline_mae_floor": 7.709689922897971
+  }
+}

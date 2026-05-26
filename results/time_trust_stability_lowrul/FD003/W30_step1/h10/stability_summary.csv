@@ -1,0 +1,3 @@
+dataset,mode,bin,n_runs,n_ok,n_with_selection,runtime_mean_seconds,runtime_median_seconds,runtime_std_seconds,runtime_cv,runtime_p95_seconds,mean_pairwise_jaccard
+FD003,sensors,low,5,5,5,307.3474528686609,307.23598000616767,2.782360396436548,0.00905281748869914,310.16226725652814,0.0
+FD003,windows,low,5,5,5,574.2850764399394,570.4280984541401,8.742770553075328,0.015223746727449002,585.9355964447838,0.6

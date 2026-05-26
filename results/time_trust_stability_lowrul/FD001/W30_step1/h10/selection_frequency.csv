@@ -1,0 +1,7 @@
+dataset,mode,bin,group,count,n_with_selection,frequency
+FD001,sensors,low,11,2,5,0.4
+FD001,sensors,low,3,1,5,0.2
+FD001,sensors,low,6,1,5,0.2
+FD001,sensors,low,9,1,5,0.2
+FD001,windows,low,30,3,5,0.6
+FD001,windows,low,29,2,5,0.4
