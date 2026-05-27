@@ -1,0 +1,51 @@
+{
+  "type": "ranking_retention_retrain_summary",
+  "definition": {
+    "protocol": "For each ranking and top-k group subset, train a new MLP from scratch using only the selected original input columns; evaluate on validation.",
+    "k0": "k=0 is represented by a mean-y_train predictor, no MLP is trained.",
+    "reference_full": "mae_full_ref is computed using the saved original baseline model.keras on validation.",
+    "retrain_retention": "(mae_mean_ref - val_mae_k) / (mae_mean_ref - mae_full_ref). Higher is better.",
+    "partial_auc_20_80": "AUC over fraction_kept in [0.20, 0.80], normalized by interval width.",
+    "column_order": "Selected columns are sorted in original flattened order, flat=s*W+w."
+  },
+  "config": {
+    "processed_root": "datasets/processed",
+    "baselines_root": "mlp_baselines",
+    "out_dir": "tables_retrain_sanity_fd003_h10_10_10_windows",
+    "only_dataset": "FD003",
+    "only_window_tag": "W30_step1",
+    "only_hidden": "h10_10_10",
+    "only_group_mode": "windows",
+    "n_random": 5,
+    "seed": 2026,
+    "fractions": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "all_k": false,
+    "epochs": 60,
+    "train_batch_size": 128,
+    "predict_batch_size": 1024,
+    "learning_rate": 0.001,
+    "keras_verbose": 0,
+    "include_group_ablation": true,
+    "include_random": true,
+    "partial_auc_lo": 0.2,
+    "partial_auc_hi": 0.8
+  },
+  "counts": {
+    "targets_found": 1,
+    "curve_rows": 54,
+    "auc_rows": 9,
+    "errors": 0
+  },
+  "outputs": {
+    "curves_csv": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_curves.csv",
+    "auc_csv": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_auc.csv",
+    "summary_json": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_summary.json"
+  },
+  "errors": []
+}

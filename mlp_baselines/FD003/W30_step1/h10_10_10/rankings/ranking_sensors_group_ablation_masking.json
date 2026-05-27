@@ -1,0 +1,156 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 16,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FD003",
+    "window_tag": "W30_step1",
+    "hidden_tag": "h10_10_10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 19620,
+      "n_used": 19620,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 27.449037551879883
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 13.930856704711914,
+      "score_norm_nonneg": 0.15421941689123184
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 10.941301345825195,
+      "score_norm_nonneg": 0.12112400187231026
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 10.699098587036133,
+      "score_norm_nonneg": 0.11844273330271375
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 15,
+      "group_index_1based": 16,
+      "group_name": "s16",
+      "score": 7.819025039672852,
+      "score_norm_nonneg": 0.08655931992096567
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 5.734319686889648,
+      "score_norm_nonneg": 0.06348090839818317
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 5.278867721557617,
+      "score_norm_nonneg": 0.058438897127496996
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 5.177953720092773,
+      "score_norm_nonneg": 0.05732174412018732
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": 4.692968368530273,
+      "score_norm_nonneg": 0.05195278801761972
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 4.684381484985352,
+      "score_norm_nonneg": 0.05185772823764489
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 4.483432769775391,
+      "score_norm_nonneg": 0.0496331562431429
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 4.020307540893555,
+      "score_norm_nonneg": 0.044506199282799086
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 3.818988800048828,
+      "score_norm_nonneg": 0.04227753097614358
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 3.3485984802246094,
+      "score_norm_nonneg": 0.03707014693851765
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 2.7433013916015625,
+      "score_norm_nonneg": 0.030369298165747433
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 1.9978828430175781,
+      "score_norm_nonneg": 0.02211725621748394
+    },
+    {
+      "rank": 16,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 0.9601211547851562,
+      "score_norm_nonneg": 0.01062887428781179
+    }
+  ]
+}

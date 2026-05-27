@@ -1,0 +1,68 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 5,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FAKE_DATASET",
+    "window_tag": "W10_step1",
+    "hidden_tag": "h10_10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 3014,
+      "n_used": 3014,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 9.567459106445312
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 0.5939445495605469,
+      "score_norm_nonneg": 0.3072278428747397
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 0.5165929794311523,
+      "score_norm_nonneg": 0.2672164376831083
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 0.3053579330444336,
+      "score_norm_nonneg": 0.15795154470790723
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 0.30499267578125,
+      "score_norm_nonneg": 0.15776260922370208
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 0.21234989166259766,
+      "score_norm_nonneg": 0.10984156551054265
+    }
+  ]
+}

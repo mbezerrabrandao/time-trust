@@ -1,0 +1,196 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 21,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FD002",
+    "window_tag": "W30_step1",
+    "hidden_tag": "h10_10_10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 41513,
+      "n_used": 41513,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 28.3529052734375
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 29.69159698486328,
+      "score_norm_nonneg": 0.2377642346594666
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 23.308032989501953,
+      "score_norm_nonneg": 0.18664596006714423
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 13.552459716796875,
+      "score_norm_nonneg": 0.10852532499212414
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 12.905601501464844,
+      "score_norm_nonneg": 0.1033454167312106
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 12.86187744140625,
+      "score_norm_nonneg": 0.10299528340287073
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 7.040096282958984,
+      "score_norm_nonneg": 0.056375650844918884
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 4.394126892089844,
+      "score_norm_nonneg": 0.03518726924748919
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 16,
+      "group_index_1based": 17,
+      "group_name": "s17",
+      "score": 4.277858734130859,
+      "score_norm_nonneg": 0.034256217623473244
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 3.7098007202148438,
+      "score_norm_nonneg": 0.029707325255380904
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 15,
+      "group_index_1based": 16,
+      "group_name": "s16",
+      "score": 3.5481319427490234,
+      "score_norm_nonneg": 0.028412714757936507
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 17,
+      "group_index_1based": 18,
+      "group_name": "s18",
+      "score": 2.5412025451660156,
+      "score_norm_nonneg": 0.020349430129140915
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 2.512958526611328,
+      "score_norm_nonneg": 0.02012325780641989
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 1.5300025939941406,
+      "score_norm_nonneg": 0.01225194778083071
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 0.7973423004150391,
+      "score_norm_nonneg": 0.006384954029803366
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 0.5728836059570312,
+      "score_norm_nonneg": 0.004587534721987814
+    },
+    {
+      "rank": 16,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 0.5494861602783203,
+      "score_norm_nonneg": 0.004400172763396594
+    },
+    {
+      "rank": 17,
+      "group_index_0based": 19,
+      "group_index_1based": 20,
+      "group_name": "s20",
+      "score": 0.405059814453125,
+      "score_norm_nonneg": 0.0032436361312546047
+    },
+    {
+      "rank": 18,
+      "group_index_0based": 20,
+      "group_index_1based": 21,
+      "group_name": "s21",
+      "score": 0.3185863494873047,
+      "score_norm_nonneg": 0.0025511743136423
+    },
+    {
+      "rank": 19,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 0.14434051513671875,
+      "score_norm_nonneg": 0.0011558493175470102
+    },
+    {
+      "rank": 20,
+      "group_index_0based": 18,
+      "group_index_1based": 19,
+      "group_name": "s19",
+      "score": 0.1338787078857422,
+      "score_norm_nonneg": 0.001072073305247928
+    },
+    {
+      "rank": 21,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": 0.08299064636230469,
+      "score_norm_nonneg": 0.0006645721187138322
+    }
+  ]
+}

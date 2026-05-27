@@ -1,0 +1,148 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 15,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FD001",
+    "window_tag": "W30_step1",
+    "hidden_tag": "h10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 15843,
+      "n_used": 15843,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 25.295774459838867
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 15.467363357543945,
+      "score_norm_nonneg": 0.2861546623147927
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 11.748037338256836,
+      "score_norm_nonneg": 0.21734510140351887
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 7.129777908325195,
+      "score_norm_nonneg": 0.13190478186711654
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 4.245433807373047,
+      "score_norm_nonneg": 0.0785428420763204
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 2.695209503173828,
+      "score_norm_nonneg": 0.04986284652530416
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 2.5731773376464844,
+      "score_norm_nonneg": 0.0476051848727777
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 2.1889781951904297,
+      "score_norm_nonneg": 0.04049729108831289
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 2.1227855682373047,
+      "score_norm_nonneg": 0.03927269136981839
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 1.7537860870361328,
+      "score_norm_nonneg": 0.03244599961268999
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 1.6008663177490234,
+      "score_norm_nonneg": 0.029616900435921367
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 1.1481456756591797,
+      "score_norm_nonneg": 0.021241321517555138
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 0.5316944122314453,
+      "score_norm_nonneg": 0.009836636760236474
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 0.48697853088378906,
+      "score_norm_nonneg": 0.009009368554831185
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 0.3602256774902344,
+      "score_norm_nonneg": 0.006664371600804205
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": -0.031402587890625,
+      "score_norm_nonneg": 0.0
+    }
+  ]
+}

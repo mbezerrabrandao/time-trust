@@ -1,0 +1,148 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 15,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FD001",
+    "window_tag": "W30_step1",
+    "hidden_tag": "h10_10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 15843,
+      "n_used": 15843,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 20.327390670776367
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 18.284433364868164,
+      "score_norm_nonneg": 0.36021481578232634
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 5.081794738769531,
+      "score_norm_nonneg": 0.10011454657307947
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 5,
+      "group_index_1based": 6,
+      "group_name": "s6",
+      "score": 3.992025375366211,
+      "score_norm_nonneg": 0.07864540598500959
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 3.779020309448242,
+      "score_norm_nonneg": 0.07444907246735362
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 10,
+      "group_index_1based": 11,
+      "group_name": "s11",
+      "score": 3.7267818450927734,
+      "score_norm_nonneg": 0.07341994192559388
+    },
+    {
+      "rank": 6,
+      "group_index_0based": 7,
+      "group_index_1based": 8,
+      "group_name": "s8",
+      "score": 3.6325435638427734,
+      "score_norm_nonneg": 0.07156338862461295
+    },
+    {
+      "rank": 7,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 3.3533992767333984,
+      "score_norm_nonneg": 0.0660640709289936
+    },
+    {
+      "rank": 8,
+      "group_index_0based": 8,
+      "group_index_1based": 9,
+      "group_name": "s9",
+      "score": 2.748506546020508,
+      "score_norm_nonneg": 0.05414730439793609
+    },
+    {
+      "rank": 9,
+      "group_index_0based": 9,
+      "group_index_1based": 10,
+      "group_name": "s10",
+      "score": 1.6377067565917969,
+      "score_norm_nonneg": 0.03226385121480842
+    },
+    {
+      "rank": 10,
+      "group_index_0based": 6,
+      "group_index_1based": 7,
+      "group_name": "s7",
+      "score": 1.4832019805908203,
+      "score_norm_nonneg": 0.029220010133486362
+    },
+    {
+      "rank": 11,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 1.012655258178711,
+      "score_norm_nonneg": 0.01994994430490401
+    },
+    {
+      "rank": 12,
+      "group_index_0based": 13,
+      "group_index_1based": 14,
+      "group_name": "s14",
+      "score": 0.7711772918701172,
+      "score_norm_nonneg": 0.015192676775002183
+    },
+    {
+      "rank": 13,
+      "group_index_0based": 11,
+      "group_index_1based": 12,
+      "group_name": "s12",
+      "score": 0.5086441040039062,
+      "score_norm_nonneg": 0.010020608162491701
+    },
+    {
+      "rank": 14,
+      "group_index_0based": 14,
+      "group_index_1based": 15,
+      "group_name": "s15",
+      "score": 0.47977256774902344,
+      "score_norm_nonneg": 0.00945182077346668
+    },
+    {
+      "rank": 15,
+      "group_index_0based": 12,
+      "group_index_1based": 13,
+      "group_name": "s13",
+      "score": 0.2681407928466797,
+      "score_norm_nonneg": 0.0052825419509351075
+    }
+  ]
+}

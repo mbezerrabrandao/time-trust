@@ -1,0 +1,68 @@
+{
+  "type": "group_ablation_ranking_fixed_model_masking",
+  "group_mode": "sensors",
+  "n_groups": 5,
+  "score_name": "mae_mask_single_group_minus_mae_full_on_ranking_split",
+  "definition": {
+    "score": "MAE(X with one group masked) - MAE(X full), computed on the ablation ranking split",
+    "ranking_rule": "larger score = more important",
+    "mask_value": 0.0,
+    "normalization": "score_norm_nonneg is computed after clipping negative scores to zero; ranking uses raw scores",
+    "important_note": "Ranking can be computed on train while retention curves are evaluated on validation to reduce split-level overfitting."
+  },
+  "meta": {
+    "dataset_name": "FAKE_DATASET",
+    "window_tag": "W10_step1",
+    "hidden_tag": "h10",
+    "ablation_ranking_split": "train",
+    "ablation_subsample": {
+      "subsampled": false,
+      "n_available": 3014,
+      "n_used": 3014,
+      "max_samples": 0
+    },
+    "mae_full_on_ranking_split": 10.556182861328125
+  },
+  "items": [
+    {
+      "rank": 1,
+      "group_index_0based": 2,
+      "group_index_1based": 3,
+      "group_name": "s3",
+      "score": 0.5121774673461914,
+      "score_norm_nonneg": 0.3570131342958148
+    },
+    {
+      "rank": 2,
+      "group_index_0based": 0,
+      "group_index_1based": 1,
+      "group_name": "s1",
+      "score": 0.4440946578979492,
+      "score_norm_nonneg": 0.30955603447702795
+    },
+    {
+      "rank": 3,
+      "group_index_0based": 4,
+      "group_index_1based": 5,
+      "group_name": "s5",
+      "score": 0.2031574249267578,
+      "score_norm_nonneg": 0.14161081588453414
+    },
+    {
+      "rank": 4,
+      "group_index_0based": 3,
+      "group_index_1based": 4,
+      "group_name": "s4",
+      "score": 0.20014476776123047,
+      "score_norm_nonneg": 0.13951084420324056
+    },
+    {
+      "rank": 5,
+      "group_index_0based": 1,
+      "group_index_1based": 2,
+      "group_name": "s2",
+      "score": 0.0750436782836914,
+      "score_norm_nonneg": 0.05230917113938255
+    }
+  ]
+}

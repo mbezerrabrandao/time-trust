@@ -1,0 +1,46 @@
+{
+  "type": "ranking_retention_masking_summary",
+  "definition": {
+    "protocol": "fixed trained MLP; keep top-k groups according to each ranking; mask all other groups; evaluate without retraining",
+    "evaluation_split": "validation",
+    "retention": "(mae_empty - mae_k) / (mae_empty - mae_full), computed on validation",
+    "auc": "trapezoidal integral over fraction_kept in [0,1]",
+    "partial_auc_20_80": "trapezoidal integral over fraction_kept in [0.20,0.80], normalized by interval width",
+    "mask_value": 0.0,
+    "random": "independent random group permutations generated on the fly",
+    "group_ablation": "ranking by MAE increase after masking one group at a time; ranking split is configurable and defaults to train to avoid validation overfitting"
+  },
+  "config": {
+    "processed_root": "datasets/processed",
+    "baselines_root": "mlp_baselines",
+    "out_dir": "tables",
+    "only_dataset": null,
+    "only_window_tag": null,
+    "only_hidden": null,
+    "only_group_mode": null,
+    "n_random": 50,
+    "seed": 2026,
+    "batch_size": 1024,
+    "mask_value": 0.0,
+    "include_group_ablation": true,
+    "include_random": true,
+    "save_ablation_rankings": true,
+    "ablation_ranking_split": "train",
+    "ablation_max_samples": 0,
+    "ablation_group_batch_size": 8,
+    "partial_auc_lo": 0.2,
+    "partial_auc_hi": 0.8
+  },
+  "counts": {
+    "targets_found": 15,
+    "curve_rows": 35316,
+    "auc_rows": 1620,
+    "errors": 0
+  },
+  "outputs": {
+    "curves_csv": "tables/ranking_retention_masking_curves.csv",
+    "auc_csv": "tables/ranking_retention_masking_auc.csv",
+    "summary_json": "tables/ranking_retention_masking_summary.json"
+  },
+  "errors": []
+}
