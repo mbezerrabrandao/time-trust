@@ -11,14 +11,15 @@
   "config": {
     "processed_root": "datasets/processed",
     "baselines_root": "mlp_baselines",
-    "out_dir": "tables_retrain_sanity_fd003_h10_10_10_windows",
-    "only_dataset": "FD003",
-    "only_window_tag": "W30_step1",
-    "only_hidden": "h10_10_10",
-    "only_group_mode": "windows",
-    "n_random": 5,
+    "out_dir": "tables_retrain_all_random3",
+    "only_dataset": null,
+    "only_window_tag": null,
+    "only_hidden": null,
+    "only_group_mode": null,
+    "n_random": 3,
     "seed": 2026,
     "fractions": [
+      0.1,
       0.2,
       0.4,
       0.6,
@@ -37,15 +38,15 @@
     "partial_auc_hi": 0.8
   },
   "counts": {
-    "targets_found": 1,
-    "curve_rows": 54,
-    "auc_rows": 9,
+    "targets_found": 15,
+    "curve_rows": 1449,
+    "auc_rows": 210,
     "errors": 0
   },
   "outputs": {
-    "curves_csv": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_curves.csv",
-    "auc_csv": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_auc.csv",
-    "summary_json": "tables_retrain_sanity_fd003_h10_10_10_windows/ranking_retention_retrain_summary.json"
+    "curves_csv": "tables_retrain_all_random3/ranking_retention_retrain_curves.csv",
+    "auc_csv": "tables_retrain_all_random3/ranking_retention_retrain_auc.csv",
+    "summary_json": "tables_retrain_all_random3/ranking_retention_retrain_summary.json"
   },
   "errors": []
 }
